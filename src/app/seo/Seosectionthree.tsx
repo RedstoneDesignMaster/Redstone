@@ -6,11 +6,11 @@ const Seosectionthree = () => {
     <div
       className=" bg-cover bg-center flex items-center justify-center px-8 h-full py-28"
       style={{
-        backgroundImage: "url('/seo/banner-seo-2.webp')",
+        backgroundImage: "url('/SEO/banner-seo-2.webp')",
       }}
     >
       <div className="text-white mx-8">
-        <Image src={"/seo/1.webp"} alt="seo" height={100} width={100} />
+        <Image src={"/SEO/1.webp"} alt="seo" height={100} width={100} />
         <h5 className="font-bold text-xl text-white text-start py-2">
           Full-Service SEO Expertise
         </h5>
@@ -20,7 +20,7 @@ const Seosectionthree = () => {
         </p>
       </div>
       <div className="text-white mx-8 ">
-        <Image src={"/seo/2.webp"} alt="seo" height={100} width={100} />
+        <Image src={"/SEO/2.webp"} alt="seo" height={100} width={100} />
         <h5 className="font-bold text-xl text-white text-start py-2">
           Audit and Analysis
         </h5>
@@ -31,7 +31,7 @@ const Seosectionthree = () => {
         </p>
       </div>
       <div className="text-white mx-8 ">
-        <Image src={"/seo/3.webp"} alt="seo" height={100} width={100} />
+        <Image src={"/SEO/3.webp"} alt="seo" height={100} width={100} />
         <h5 className="font-bold text-xl text-white text-start py-2">
           Visibility and Architecture
         </h5>
