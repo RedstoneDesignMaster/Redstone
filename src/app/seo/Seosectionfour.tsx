@@ -10,7 +10,7 @@ const Seosectionfour = () => {
       </h5>
       <div className="flex justify-center gap-x-10 gap-y-6 items-start mx-10 my-5 ">
         <div className="flex-auto ">
-          <Image src={"/SEO/4.webp"} alt="seo" height={1000} width={1000} />
+          <Image src={"/SEO/4.webp"} alt="seo" height={800} width={800} />
         </div>
         <div className="flex-auto pt-12">
           <h5 className="text-start text-3xl leading-loose font-bold">
