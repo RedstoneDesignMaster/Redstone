@@ -32,7 +32,7 @@ const TestimonialCrousel = () => {
               </h3>
               <p className="text-center">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Praesentium quod eveniet{" "}
+                Praesentium quod eveniet.
               </p>
             </div>
           </div>
@@ -53,7 +53,7 @@ const TestimonialCrousel = () => {
               </h3>
               <p className="text-center">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Praesentium quod eveniet{" "}
+                Praesentium quod eveniet.
               </p>
             </div>
           </div>
@@ -74,7 +74,7 @@ const TestimonialCrousel = () => {
               </h3>
               <p className="text-center">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Praesentium quod eveniet{" "}
+                Praesentium quod eveniet.
               </p>
             </div>
           </div>

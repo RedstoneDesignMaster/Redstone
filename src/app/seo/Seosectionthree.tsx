@@ -25,7 +25,7 @@ const Seosectionthree = () => {
           Audit and Analysis
         </h5>
         <p className="text-start line-clamp-3 text-sm">
-          Our analytical experts perform a formal inspection of your business's
+          Our analytical experts perform a formal inspection of your business
           virtual presence. we gather the errors that are causing your business
           detriment{" "}
         </p>
