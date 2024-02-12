@@ -10,7 +10,7 @@ const Seosectiontwo = () => {
         The Ranking of your business over the SERPs is one of the concerning
         factors that influence your digital business presence. With a
         combination of search engine optimization and search engine marketing
-        strategies, there isn't a ranking you can achieve. At logo zeal we work
+        strategies, there is not a ranking you can achieve. At logo zeal we work
         with your business presence and ranking of the internet.
       </p>
       <p className="text-center line-clamp-4 text-gray-500 leading-relaxed text-wrap text-xl">
