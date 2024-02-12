@@ -10,7 +10,7 @@ const Seosectionfour = () => {
       </h5>
       <div className="flex justify-center gap-x-10 gap-y-6 items-start mx-10 my-5 ">
         <div className="flex-auto ">
-          <Image src={"/seo/4.webp"} alt="seo" height={1200} width={1200} />
+          <Image src={"/SEO/4.webp"} alt="seo" height={1200} width={1200} />
         </div>
         <div className="flex-auto pt-12">
           <h5 className="text-start text-3xl leading-loose font-bold">
@@ -26,7 +26,7 @@ const Seosectionfour = () => {
             <div
               className="bg-cover bg-center px-6 py-4"
               style={{
-                backgroundImage: "url('/seo/5.webp')",
+                backgroundImage: "url('/SEO/5.webp')",
               }}
             >
               <h5 className="text-orange-500 font-semibold text-start">
@@ -40,7 +40,7 @@ const Seosectionfour = () => {
             <div
               className="bg-cover bg-center px-6 py-4"
               style={{
-                backgroundImage: "url('/seo/6.webp')",
+                backgroundImage: "url('/SEO/6.webp')",
               }}
             >
               <h5 className="text-red-600">35%</h5>
@@ -52,7 +52,7 @@ const Seosectionfour = () => {
             <div
               className="bg-cover bg-center px-6 py-4"
               style={{
-                backgroundImage: "url('/seo/7.webp')",
+                backgroundImage: "url('/SEO/7.webp')",
               }}
             >
               <h5 className="text-pink-500">35%</h5>
