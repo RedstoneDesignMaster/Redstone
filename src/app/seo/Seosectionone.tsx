@@ -5,7 +5,7 @@ const Seosectionone = () => {
     <div
       className=" h-screen flex flex-col justify-center items-start px-20 w-screen bg-cover  bg-center"
       style={{
-        backgroundImage: "url('/seo/banner-seo.webp')",
+        backgroundImage: "url('/Seo/banner-seo.webp')",
       }}
     >
       <h5 className="text-white text-4xl font-extrabold py-4 leading-normal">
