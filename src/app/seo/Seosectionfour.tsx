@@ -26,7 +26,7 @@ const Seosectionfour = () => {
             <div
               className="bg-cover bg-center px-6 py-4"
               style={{
-                backgroundImage: "url('/Seo/5.webp')",
+                backgroundImage: "url('/SEO/5.webp')",
               }}
             >
               <h5 className="text-orange-500 font-semibold text-start">
@@ -40,7 +40,7 @@ const Seosectionfour = () => {
             <div
               className="bg-cover bg-center px-6 py-4"
               style={{
-                backgroundImage: "url('/Seo/6.webp')",
+                backgroundImage: "url('/SEO/6.webp')",
               }}
             >
               <h5 className="text-red-600">35%</h5>
@@ -52,7 +52,7 @@ const Seosectionfour = () => {
             <div
               className="bg-cover bg-center px-6 py-4"
               style={{
-                backgroundImage: "url('/Seo/7.webp')",
+                backgroundImage: "url('/SEO/7.webp')",
               }}
             >
               <h5 className="text-pink-500">35%</h5>
