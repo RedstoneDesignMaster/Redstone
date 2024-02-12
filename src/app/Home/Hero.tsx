@@ -24,7 +24,7 @@ const Hero = () => {
           <h2 className="animate__animated  animate__bounceInLeft text-3xl font-light text-wrap tracking-tight leading-[48px] text-yellow-300">
             Creating Awesome Website
           </h2>
-          <p className="py-4 text-wrap break-all animate_animated animate__slideOutDown">
+          <p className="py-4 text-wrap  animate_animated animate__slideOutDown line-clamp-3">
             Along with awesome websites, we also assist customers in revamping
             or creating their identity from scratch—every design and content
             under one roof.
