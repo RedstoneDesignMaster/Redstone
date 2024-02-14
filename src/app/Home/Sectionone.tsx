@@ -15,7 +15,7 @@ const Sectionone = () => {
           norms and capacity to make an impact.
         </p>
       </div>
-      <div className="pt-10 md:px-6 grid grid-cols-2 gap-4 md:flex pb-8 ">
+      <div className="pt-10 md:px-6 grid grid-cols-2 gap-4 md:flex md:pb-1 pb-8">
         <Logos source="logo" title="Logo design" />
         <Logos source="mobapp" title="Mobile Application" />
         <Logos source="ecom" title="E-commerce" />
