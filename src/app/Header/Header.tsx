@@ -73,7 +73,7 @@ const Header = () => {
       <div
         className={
           isOpen
-            ? "fixed top-0 left-0 w-[65%] h-screen ease-in duration-500 p-10 md:hidden bg-black"
+            ? "fixed top-0 left-0 w-[65%] h-screen ease-in duration-500 p-10 md:hidden bg-black "
             : "fixed left-[-100%] top-0 p-10 ease-in duration-500"
         }
       >

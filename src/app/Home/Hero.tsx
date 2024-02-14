@@ -11,25 +11,25 @@ const Hero = () => {
   return (
     <>
       <div
-        className="Hero flex items-center justify-around  text-white h-screen)]"
+        className="Hero md:flex md:items-center md:justify-around  text-white h-screen)]"
         style={{
           backgroundImage: "url('/hombanner.webp')",
         }}
       >
-        <div className="px-8 bg-[url('/img/bg.jpg')]">
-          <h1 className="text-3xl font-light text-wrap tracking-tight leading-[48px] ">
+        <div className="px-8 bg-[url('/img/bg.jpg')] pt-8 md:pt-4">
+          <h1 className="text-2xl md:text-3xl font-light text-wrap md:tracking-tight md:leading-[48px] ">
             We Are A Full Fledged Digital Agency <br />{" "}
           </h1>
 
-          <h2 className="animate__animated  animate__bounceInLeft text-3xl font-light text-wrap tracking-tight leading-[48px] text-yellow-300">
+          <h2 className="animate__animated  animate__bounceInLeft duration-1000 md:text-3xl font-bold md:text-wrap md:tracking-tight md:leading-[48px] text-yellow-300 z-0 py-4 md:py-2 text-2xl ">
             Creating Awesome Website
           </h2>
-          <p className="py-4 text-wrap  animate_animated animate__slideOutDown line-clamp-3">
+          <p className="md:py-4 text-wrap  animate_animated animate__slideOutDown md:line-clamp-3">
             Along with awesome websites, we also assist customers in revamping
             or creating their identity from scratch—every design and content
             under one roof.
           </p>
-          <section className="py-4">
+          <section className="pt-8  pb-16 md:pt-4 md:pb-4 mt-4">
             <span>
               <Link
                 href={""}
@@ -46,7 +46,7 @@ const Hero = () => {
             </span>
           </section>
         </div>
-        <div>
+        <div className="hidden md:block">
           <Image
             src={"/home-banner-01.webp"}
             alt="home banner"
