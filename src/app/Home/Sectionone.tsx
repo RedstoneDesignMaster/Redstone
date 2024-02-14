@@ -3,9 +3,9 @@ import Logos from "../components/Logos";
 import Image from "next/image";
 const Sectionone = () => {
   return (
-    <section className="flex flex-col items-center align-center h-screen pt-10">
+    <section className="flex flex-col items-center align-center h-screen pt-10 px-10 md:px-2 ">
       <div>
-        <h5 className="font-bold text-3xl text-center text-wrap py-6">
+        <h5 className="font-bold md:text-3xl text-2xl text-center text-wrap md:py-6 py-3">
           One-Stop-Shop for <br />
           All Your Creative Design Needs
         </h5>
@@ -15,7 +15,7 @@ const Sectionone = () => {
           norms and capacity to make an impact.
         </p>
       </div>
-      <div className="pt-10  px-6 flex gap-4">
+      <div className="pt-10 md:px-6 grid grid-cols-2 gap-4 md:flex pb-8 ">
         <Logos source="logo" title="Logo design" />
         <Logos source="mobapp" title="Mobile Application" />
         <Logos source="ecom" title="E-commerce" />
