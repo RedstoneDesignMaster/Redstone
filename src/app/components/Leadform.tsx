@@ -4,7 +4,7 @@ const Leadform = () => {
   return (
     <form
       className="max-w-md mx-auto p-6 bg-white rounded-md shadow-md"
-      action={"https://formspree.io/zu33air@gmail.com"}
+      action={"https://formspree.io/f/xbjnygng"}
       method="POST"
     >
       <h2 className="text-2xl font-semibold mb-4 text-center">Contact Us</h2>
