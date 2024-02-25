@@ -5,28 +5,30 @@ const Websitesectionsix = () => {
   return (
     <>
       {/* How to design section */}
-      <div className="bg-[#ff9086] text-center pt-12 pb-16  ">
-        <h5 className="text-4xl font-bold text-white py-8">
+      <div className="bg-[#ff9086] text-center pt-0 md:pt-12 pb-16  ">
+        <h5 className="text-2xl md:text-4xl font-bold text-white py-8 text-wrap text-center">
           Here is How we Create Professional Designs
         </h5>
-        <div className=" flex justify-between items-center gap-4 mx-12 ">
-          <div className=" bg-white rounded-md  mx-auto p-4 w-1/2 h-1/2">
-            <Image
-              src={"/How/1.webp"}
-              alt=""
-              width={200}
-              height={200}
-              className="pb-8 mx-auto"
-            />
-            <h6 className="text-center font-semibold text-2xl pb-4 text-wrap">
-              Build a design brief
-            </h6>
-            <p className="text-center text-wrap text-gray-500">
-              Fill out the creative design brief and tell us everything that you
-              need and allow us to kick-start your project.
-            </p>
+        <div className=" flex flex-col md:flex-row justify-between items-center gap-4 mx-12 ">
+          <div className="">
+            <div className=" bg-white rounded-md  mx-auto p-4 md:w-1/2 h-1/2">
+              <Image
+                src={"/How/1.webp"}
+                alt=""
+                width={200}
+                height={200}
+                className="pb-8 mx-auto"
+              />
+              <h6 className="text-center font-semibold text-2xl pb-4 text-wrap">
+                Build a design brief
+              </h6>
+              <p className="text-center text-wrap text-gray-500">
+                Fill out the creative design brief and tell us everything that
+                you need and allow us to kick-start your project.
+              </p>
+            </div>
           </div>
-          <div className=" bg-white rounded-md mx-auto p-4 w-1/2 h-1/2">
+          <div className=" bg-white rounded-md mx-auto p-4 md:w-1/2 h-1/2">
             <Image
               src={"/How/2.webp"}
               alt=""
@@ -44,7 +46,7 @@ const Websitesectionsix = () => {
               virtual business platform.
             </p>
           </div>
-          <div className=" bg-white rounded-md  mx-auto w-1/2 h-1/2">
+          <div className=" bg-white rounded-md  mx-auto md:w-1/2 h-1/2">
             <img
               src={"/How/3.webp"}
               alt=""
@@ -61,7 +63,7 @@ const Websitesectionsix = () => {
               functionality and features of the website.
             </p>
           </div>
-          <div className=" bg-white rounded-md  mx-auto p-4 w-1/2 h-1/2">
+          <div className=" bg-white rounded-md  mx-auto p-4 md:w-1/2 h-1/2">
             <Image
               src={"/How/4.webp"}
               alt=""

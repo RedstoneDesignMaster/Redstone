@@ -4,7 +4,7 @@ import React from "react";
 const Seosectionthree = () => {
   return (
     <div
-      className=" bg-cover bg-center flex items-center justify-center px-8 h-full py-28"
+      className=" bg-cover bg-center flex flex-col md:flex-row items-center justify-center px-8 md:h-full py-28"
       style={{
         backgroundImage: "url('/SEO/banner-seo-2.webp')",
       }}

@@ -5,7 +5,7 @@ const Websitesectionfive = () => {
   return (
     <>
       <div className="mt-10 flex flex-col items-center justify-start pt-8">
-        <h5 className="text-5xl font-bold text-center text-wrap">
+        <h5 className=" text-xl md:text-5xl font-bold text-center text-wrap">
           Let Us Give Your Brand An Identity
           <br /> That Speaks It All For You!
         </h5>
@@ -16,7 +16,6 @@ const Websitesectionfive = () => {
           Request Custom Quote
         </button>
       </div>
-      
     </>
   );
 };

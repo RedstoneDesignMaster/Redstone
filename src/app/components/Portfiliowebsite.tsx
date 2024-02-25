@@ -4,7 +4,7 @@ const Portfiliowebsite = ({ src }: { src: string }) => {
   const [hover, setHover] = useState(false);
 
   return (
-    <div className="w-[300px] h-[300px] overflow-hidden">
+    <div className="md:w-[350px] md:h-[350px]  w-[250px] h-[350px] overflow-hidden">
       <img
         src={`/website/${src}.webp`}
         alt="portfolio web"

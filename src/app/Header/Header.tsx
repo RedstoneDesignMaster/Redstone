@@ -56,16 +56,19 @@ const Header = () => {
         <Link href={"/"} className="hover:underline">
           LOGO & BRANDING
         </Link>
-        <Link href={"/"} className="hover:underline">
+        <Link href={"/website"} className="hover:underline">
           WEBSITE DESIGN
         </Link>
-        <Link href={"/"} className="hover:underline">
+        <Link href={"/seo"} className="hover:underline">
           SEO
         </Link>
-        <Link href={"/"} className="hover:underline">
+        <Link href={"/mobile-app"} className="hover:underline">
           MOBILE APP
         </Link>
-        <Link href={"/"} className="hover:underline ease-in duration-500">
+        <Link
+          href={"/animation"}
+          className="hover:underline ease-in duration-500"
+        >
           ANIMATION
         </Link>
       </div>

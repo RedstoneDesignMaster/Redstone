@@ -2,11 +2,11 @@ import React from "react";
 
 const Seosectiontwo = () => {
   return (
-    <div className="text-center my-10 mx-[180px]">
-      <h5 className="text-5xl font-extrabold leading-normal text-black pb-8">
+    <div className="text-center my-10 md:mx-[180px] mx-12">
+      <h5 className="text-3xl md:text-5xl font-extrabold leading-normal text-black pb-8">
         Enhance Your Business With SEO and SEM
       </h5>
-      <p className="text-center line-clamp-3 text-gray-500 leading-relaxed pb-8 text-xl">
+      <p className="text-center md:line-clamp-3 text-gray-500 md:leading-relaxed pb-8 text-xl text-balance">
         The Ranking of your business over the SERPs is one of the concerning
         factors that influence your digital business presence. With a
         combination of search engine optimization and search engine marketing

@@ -3,10 +3,10 @@ import React from "react";
 const Websectionone = () => {
   return (
     <div
-      className="bg-center bg-cover text-center pb-40 pt-40"
+      className="bg-center bg-cover text-center pb-8 md:pb-40 pt-8 md:pt-40 w-full"
       style={{ backgroundImage: "url('/bg-web-03.jpeg')" }}
     >
-      <h5 className="text-3xl font-extrabold py-4 text-wrap">
+      <h5 className="md:text-3xl font-extrabold py-4 md:text-wrap  text-2xl text-center">
         Custom Web Design & Development Services In USA
       </h5>
       <p className="text-center text-wrap pb-4 align-middle break-normal px-20 text-slate-600 pt-8">

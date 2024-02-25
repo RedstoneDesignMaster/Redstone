@@ -5,7 +5,7 @@ import Portfolioview from "./Portfolioview";
 const Logosection = () => {
   return (
     <div
-      className="flex flex-wrap items-center justify-center gap-4 "
+      className="grid grid-cols-2 sm:grid-cols-2 gap-4 justify-center px-4"
       id="logo"
     >
       <Portfolioview source="1" path="Logos" width={300} height={300} />

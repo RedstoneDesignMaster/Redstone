@@ -15,7 +15,7 @@ const Textcomponent = ({ title, para }: { title: number; para: number }) => {
       </ol>
       <Link
         href={""}
-        className="px-5 py-4  bg-violet-700 text-white text-center"
+        className="px-5 py-4  bg-violet-700 text-white text-center "
       >
         Request a Custom Quote
       </Link>

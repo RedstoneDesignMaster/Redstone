@@ -1,3 +1,4 @@
+
 import Link from "next/link";
 import { useState } from "react";
 import React from "react";
@@ -15,7 +16,7 @@ const Portfolio = () => {
         backgroundImage: "url('/portfolio-banner.webp')",
       }}
     >
-      <h1 className="text-4xl text-center">
+      <h1 className="md:text-4xl text-2xl text-center text-wrap">
         Brilliant Ideas <br /> That Create Great Value
       </h1>
       <div className="flex font-normal items-center justify-center gap-4 py-8">

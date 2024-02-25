@@ -3,14 +3,19 @@ import React from "react";
 const Seosectionone = () => {
   return (
     <div
-      className=" h-screen flex flex-col justify-center items-start px-20 w-screen bg-cover  bg-center"
+      className=" md:h-screen flex flex-col md:justify-center pt-44 md:pt-0 items-start px-4 md:px-20 md:w-screen md:bg-cover  md:bg-center h-[600px]"
       style={{
         backgroundImage: "url('/SEO/banner-seo.webp')",
       }}
     >
-      <h5 className="text-white text-4xl font-extrabold py-4 leading-normal">
+      <h5 className="text-white text-xl md:text-4xl md:font-extrabold md:py-4 md:leading-normal text-start">
         Optimized Marketing to
-        <br /> Enhance Your Business <br /> Position
+      </h5>
+
+      <h5 className="text-3xl md:text-4xl text-yellow-300">
+        {" "}
+        Enhance Your Business
+        <br className="hidden md:block" /> Position
       </h5>
       <p className="text-white text-wrap text-xl pb-4">
         Market your business to appear the best on the search engines

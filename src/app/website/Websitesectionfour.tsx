@@ -14,8 +14,9 @@ const Websitesectionfour = () => {
       <h5 className="text-center font-bold text-4xl py-10">
         Web Design Features & Technology
       </h5>
-      <div className="flex  gap-x-6 ">
-        <div className="flex-1  pb-6">
+      <div className="grid md:grid-cols-3 px-4 md:px-0 sm:gap-x-6">
+        {/*Flex mobil */}
+        <div className="  pb-6">
           <div className="border-2 mt-4 border-black ml-4 py-3 hover:border-orange-400 flex items-center justify-start gap-x-8">
             <Image
               src={"/Button/cms-icon-01.webp"}
@@ -89,16 +90,23 @@ const Websitesectionfour = () => {
             </button>
           </div>
         </div>
+        {/* Mobile section */}
 
-        <div className="flex-1">
+        <div className="">
           {state == "1" && <Textcomponent title={1} para={1} />}
           {state == "2" && <Textcomponent title={2} para={2} />}
           {state == "3" && <Textcomponent title={3} para={3} />}
           {state == "4" && <Textcomponent title={4} para={4} />}
           {state == "5" && <Textcomponent title={5} para={5} />}
         </div>
-        <div className="flex-1">
-          <Image src={"/cms-tab-01.webp"} alt="" width={600} height={600} />
+        <div className=" ">
+          <Image
+            src={"/cms-tab-01.webp"}
+            alt=""
+            width={600}
+            height={600}
+            className="hidden md:block"
+          />
         </div>
       </div>
     </div>

@@ -4,13 +4,13 @@ import React from "react";
 
 const Seosectionfour = () => {
   return (
-    <div className="h-screen">
-      <h5 className="text-center font-extrabold text-4xl mx-8 leading-relaxed py-8">
+    <div className="md:h-screen">
+      <h5 className="text-center font-extrabold text-4xl mx-8 md:leading-relaxed md:py-8">
         Client Case Studies
       </h5>
-      <div className="flex justify-center gap-x-10 gap-y-6 items-start mx-10 my-5 ">
-        <div className="flex-auto ">
-          <Image src={"/SEO/4.webp"} alt="seo" height={800} width={800} />
+      <div className="flex flex-col md:flex-row justify-center gap-x-10 gap-y-6 items-start mx-10 my-5 ">
+        <div className=" ">
+          <Image src={"/SEO/4.webp"} alt="seo" height={1200} width={1400} />
         </div>
         <div className="flex-auto pt-12">
           <h5 className="text-start text-3xl leading-loose font-bold">

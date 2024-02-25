@@ -5,12 +5,12 @@ import TestimonialCrousel from "../components/TestimonialCrousel";
 const Testimonial = () => {
   return (
     <div
-      className="bg-cover"
+      className="bg-cover mt-8 pt-2"
       style={{
         backgroundImage: 'url("/Testimonials/testimonial-banner.webp")',
       }}
     >
-      <h5 className="font-bold text-2xl text-white text-center pb-8">
+      <h5 className="font-bold text-4xl  text-white text-center pb-8">
         Testimonials
       </h5>
       <TestimonialCrousel />

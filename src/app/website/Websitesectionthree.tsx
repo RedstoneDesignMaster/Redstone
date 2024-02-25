@@ -11,7 +11,7 @@ const Websitesectionthree = () => {
         ADD ONS ON WEB PACKAGES
       </h5>
 
-      <div className="flex  gap-12  p-8">
+      <div className="flex flex-col md:flex-row  gap-12  p-8">
         <div className="bg-[#181760] flex-1 text-white text-wrap text-start py-10 px-10 ">
           <h5 className="font-bold  ">Content management system $199</h5>
           <h5 className="font-bold  ">Search engine submission $200</h5>
@@ -43,7 +43,7 @@ const Websitesectionthree = () => {
           </ol>
         </div>
       </div>
-      <div className="flex items-center gap-x-14 justify-around">
+      <div className="flex flex-col md:flex-row gap-y-8 md:gap-y-0 items-center gap-x-14 justify-around ">
         <Link
           href={""}
           className="px-6 py-4 text-center font-semibold bg-violet-500"

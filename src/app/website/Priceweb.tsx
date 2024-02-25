@@ -5,8 +5,10 @@ import { basicWebsite } from "../components/constants";
 
 const Priceweb = ({ title, price }: { title: string; price: number }) => {
   return (
-    <section className="border-2 ">
-      <h5 className="text-xl font-bold text-center  text-wrap pt-9">{title}</h5>
+    <section className="border-2 w-full md:w-auto  ">
+      <h5 className=" text-3xl font-extrabold md:text-xl md:font-bold text-center  text-wrap pt-9">
+        {title}
+      </h5>
       <p className="text-sm py-1 bg-white text-center font-semibold">
         Best value for Money Guranteed
       </p>

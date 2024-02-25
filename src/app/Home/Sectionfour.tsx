@@ -3,7 +3,7 @@ import React from "react";
 const Sectionfour = () => {
   return (
     <>
-      <div className="h-screen ">
+      <div className="md:h-screen ">
         <div className="bg-violet-700 py-3 text-center pt-20 ">
           <h5 className="text-4xl font-bold text-white">
             Let Us Give Your Brand An Identity <br />

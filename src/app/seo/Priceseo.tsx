@@ -4,7 +4,7 @@ import { basicSeo } from "../components/constants";
 
 const Priceseo = ({ title, price }: { title: string; price: number }) => {
   return (
-    <section className="border-2 w-1/4 text-center overflow-hidden">
+    <section className="border-2 w-full md:w-1/4 text-center overflow-hidden">
       <h5 className="text-2xl font-extrabold leading-loose tracking-wide text-center  text-wrap pt-9">
         {title}
       </h5>

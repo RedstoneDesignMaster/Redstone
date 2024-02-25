@@ -19,12 +19,14 @@ const page = () => {
   return (
     <>
       <div
-        className="flex flex-col items-start justify-center text-white  bg-cover bg-center h-screen w-full pl-12"
+        className="flex flex-col items-start justify-center text-white  h-[400px] md:bg-cover md:bg-center md:h-screen w-full md:pl-12 px-12 md:px-0"
         style={{
           backgroundImage: "url('/cms-new-banner.webp')",
         }}
       >
-        <h5 className="font-normal text-xl">Professional </h5>
+        <h5 className="font-normal text-3xl text-yellow-300  md:text-4xl">
+          Professional{" "}
+        </h5>
         <h6 className="text-3xl font-light text-wrap tracking-tight leading-[48px] ">
           Web Design Services <br />{" "}
         </h6>
