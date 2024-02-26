@@ -6,7 +6,7 @@ const Websitesectiontwo = () => {
   return (
     <div className=" bg-orange-50 flex items-center justify-center gap-x-14  pb-12">
       {" "}
-      <div className="md:px-8 pl-20 md:pl-0">
+      <div className="md:px-8 pl-24 md:pl-0">
         <h4 className="text-4xl font-bold mb-8 text-indigo-700 pt-12">
           CMS Website
         </h4>
