@@ -39,13 +39,13 @@ const page = () => {
           <span>
             <Link
               href={""}
-              className="bg-violet-600 hover:bg-violet-500 py-2 px-4"
+              className="bg-violet-600 hover:bg-violet-500 py-2 md:px-4 px-2 text-sm md:text-xl"
             >
               Custom Website design From $499{" "}
             </Link>
             <Link
               href={""}
-              className="bg-yellow-500 hover:bg-violet-500 py-2 px-6"
+              className="bg-yellow-500 hover:bg-violet-500 py-2 md:px-6 px-2 text-sm md:text-xl"
             >
               Live Chat
             </Link>
