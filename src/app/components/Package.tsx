@@ -3,12 +3,12 @@ import Price from "./Price";
 
 const Package = () => {
   return (
-    <div className=" md:py-10 md:px-14 px-4">
+    <div className=" md:py-10 md:px-8 px-4 ">
       <ul className="flex flex-col md:flex-row justify-around items-center text-center font-semibold cursor-pointer">
-        <li className="w-full md:w-auto px-6 py-2 hover:bg-violet-500 active:bg-violet-500 active:bg-opacity-50 text-sm border border-gray-200 md:border-2   md:hover:text-gray-800 md:hover:border-b-2 md:hover:border-gray-300 md:last:border-b-2 md:last:border-gray-300 md:last:border-r-0">
+        <li className="w-full md:w-auto  px-6 py-2 hover:bg-violet-500 active:bg-violet-500 active:bg-opacity-50 text-sm border border-gray-200 md:border-2   md:hover:text-gray-800 md:hover:border-b-2 md:hover:border-gray-300 md:last:border-b-2 md:last:border-gray-300 md:last:border-r-0">
           LOGO & BRANDING
         </li>
-        <li className="w-full md:w-auto px-6 py-2 hover:bg-violet-500 active:bg-violet-500 active:bg-opacity-50 text-sm border border-gray-200 md:border-2   md:hover:text-gray-800 md:hover:border-b-2 md:hover:border-gray-300 md:last:border-b-2 md:last:border-gray-300 md:last:border-r-0">
+        <li className="w-full md:w-auto  px-6 py-2 hover:bg-violet-500 active:bg-violet-500 active:bg-opacity-50 text-sm border border-gray-200 md:border-2   md:hover:text-gray-800 md:hover:border-b-2 md:hover:border-gray-300 md:last:border-b-2 md:last:border-gray-300 md:last:border-r-0">
           WEBSITE
         </li>
         <li className="w-full md:w-auto px-6 py-2 hover:bg-violet-500 active:bg-violet-500 active:bg-opacity-50 text-sm border border-gray-200 md:border-2   md:hover:text-gray-800 md:hover:border-b-2 md:hover:border-gray-300 md:last:border-b-2 md:last:border-gray-300 md:last:border-r-0">
@@ -27,7 +27,7 @@ const Package = () => {
         <li className="w-full md:w-auto px-6 py-2 hover:bg-violet-500 active:bg-violet-500 active:bg-opacity-50 text-sm border border-gray-200 md:border-2   md:hover:text-gray-800 md:hover:border-b-2 md:hover:border-gray-300 md:last:border-b-2 md:last:border-gray-300 md:last:border-r-0">
           SMM
         </li>
-        <li className="w-full md:w-auto px-6 py-2 hover:bg-violet-500 active:bg-violet-500 active:bg-opacity-50 text-sm border border-gray-200 md:border-2   md:hover:text-gray-800 md:hover:border-b-2 md:hover:border-gray-300 md:last:border-b-2 md:last:border-gray-300 md:last:border-r-0">
+        <li className="w-full md:w-auto px-6 py-2 hover:bg-violet-500 active:bg-violet-500 active:bg-opacity-50 text-sm border border-gray-200 md:border-2   md:hover:text-gray-800 md:hover:border-b-2 md:hover:border-gray-300 md:last:border-b-2 md:last:border-gray-300 md:last:border-r-2">
           MOBILE APPLICATION
         </li>
       </ul>
