@@ -31,9 +31,11 @@ const page = () => {
           Web Design Services <br />{" "}
         </h6>
 
-        <p className="py-4 text-wrap break-all animate_animated animate__slideOutDown">
+        <p className="py-4 text-pretty break-all animate_animated animate__slideOutDown">
           Get attractive designs for your business website.
-          <br /> We create designs to deliver seamless experiences to users.
+          <br /> We create designs to deliver seamless experiences to{" "}
+          <br className="block md:hidden" />
+          users.
         </p>
         <section className="py-4">
           <span>

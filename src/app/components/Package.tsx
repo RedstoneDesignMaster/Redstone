@@ -23,6 +23,7 @@ const Package = () => {
         <li className="w-full md:w-auto px-6 py-2 hover:bg-violet-500 active:bg-violet-500 active:bg-opacity-50 text-sm border border-gray-200 md:border-2   md:hover:text-gray-800 md:hover:border-b-2 md:hover:border-gray-300 md:last:border-b-2 md:last:border-gray-300 md:last:border-r-0">
           SEO
         </li>
+
         <li className="w-full md:w-auto px-6 py-2 hover:bg-violet-500 active:bg-violet-500 active:bg-opacity-50 text-sm border border-gray-200 md:border-2   md:hover:text-gray-800 md:hover:border-b-2 md:hover:border-gray-300 md:last:border-b-2 md:last:border-gray-300 md:last:border-r-0">
           SMM
         </li>
