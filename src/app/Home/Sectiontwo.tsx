@@ -4,7 +4,7 @@ import Image from "next/image";
 const Sectiontwo = () => {
   return (
     <>
-      <div className=" pt-20 md:pt-2">
+      <div className="  md:pt-2 flex flex-col ">
         <h1 className="font-bold md:text-4xl text-center text-2xl text-wrap ">
           Awards & Recognitions
         </h1>

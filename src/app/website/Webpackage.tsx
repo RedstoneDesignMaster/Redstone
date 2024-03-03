@@ -4,7 +4,7 @@ import Priceweb from "./Priceweb";
 const Webpackage = () => {
   return (
     <div className="pt-12 w-full md:w-auto">
-      <h5 className="text-center md:text-5xl font-bold pt-6 text-2xl">
+      <h5 className="text-center md:text-4xl font-bold pt-6 text-2xl">
         Crafting Perfect Website Packages <br /> for Corporations Globally
       </h5>
       <div className="flex items-center justify-center gap-8 flex-wrap pt-6 pb-12 px-4 md:px-0">

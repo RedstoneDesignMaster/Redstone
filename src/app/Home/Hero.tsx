@@ -11,7 +11,7 @@ const Hero = () => {
   return (
     <>
       <div
-        className="Hero md:flex md:items-center md:justify-around  text-white h-screen)]"
+        className="Hero md:flex md:items-center md:justify-around  text-white md:h-screen "
         style={{
           backgroundImage: "url('/hombanner.webp')",
         }}
@@ -29,29 +29,29 @@ const Hero = () => {
             or creating their identity from scratch—every design and content
             under one roof.
           </p>
-          <section className="pt-8  pb-16 md:pt-4 md:pb-4 mt-4">
+          <section className="pt-8  pb-16 md:pt-4 md:pb-4 mt-4 ">
             <span>
               <Link
                 href={""}
-                className="bg-violet-600 hover:bg-violet-500 py-2 px-4"
+                className="bg-violet-600 hover:bg-violet-500 py-2 px-4 text-base font-bold "
               >
                 Lets Get Started {<ChevronRightIcon />}
               </Link>
               <Link
                 href={""}
-                className="bg-yellow-500 hover:bg-violet-500 py-2 px-6"
+                className="bg-yellow-500 hover:bg-violet-500 py-2 px-4 text-base font-bold"
               >
                 Live Chat
               </Link>
             </span>
           </section>
         </div>
-        <div className="hidden md:block">
+        <div className="hidden md:block  mt-48 pt-14">
           <Image
             src={"/home-banner-01.webp"}
             alt="home banner"
-            width={600}
-            height={600}
+            width={800}
+            height={800}
           />
         </div>
       </div>

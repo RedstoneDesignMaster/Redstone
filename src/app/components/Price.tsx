@@ -3,9 +3,17 @@ import { Button } from "@mui/material";
 import Link from "next/link";
 import { logoItems } from "./constants";
 
-const Price = ({ title, price }: { title: string; price: number }) => {
+const Price = ({
+  title,
+  price,
+  pack,
+}: {
+  title: string;
+  price: number;
+  pack?: string;
+}) => {
   return (
-    <section className="border-2 w-full sm:w-auto ">
+    <section className="border-2 w-full sm:w-auto rounded-md shadow-md">
       <h5 className="text-4xl md:text-xl md:font-bold font-extrabold text-center  text-wrap pt-9">
         {title}
       </h5>
@@ -15,18 +23,24 @@ const Price = ({ title, price }: { title: string; price: number }) => {
       <h5 className="py-6 bg-gray-300 bg-opacity-50 text-center font-extrabold text-3xl">
         ${price}.00
       </h5>
-      <div className="  text-center text-wrap max-h-[300px] overflow-y-scroll">
-        <ul className="py-4 leading-8 text-sm">
+      <div className="  text-center text-wrap max-h-[300px] md:max-h-[200px] overflow-y-scroll">
+        <ul className="py-4 leading-8 text-sm md:px-4">
           {logoItems.map((items, index) => (
             <li key={index}>{items}</li>
           ))}
         </ul>
       </div>
       <div className="flex justify-center items-start text-center py-4 gap-3">
-        <Link href="" className="bg-violet-600 py-2 px-4 hover:bg-violet-500">
+        <Link
+          href=""
+          className="bg-violet-600 py-2 px-4 hover:bg-violet-500 rounded-sm font-medium"
+        >
           Oder Now
         </Link>
-        <Link href="" className="bg-yellow-500 hover:bg-yellow-400 py-2 px-4">
+        <Link
+          href=""
+          className="bg-yellow-500 hover:bg-yellow-400 py-2 px-4 rounded-sm font-medium"
+        >
           Live Chat
         </Link>
       </div>

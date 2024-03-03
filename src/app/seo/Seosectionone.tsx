@@ -8,7 +8,7 @@ const Seosectionone = () => {
         backgroundImage: "url('/SEO/banner-seo.webp')",
       }}
     >
-      <h5 className="text-white text-4xl md:text-4xl md:font-extrabold md:py-4 md:leading-normal text-start">
+      <h5 className="text-white text-xl md:text-4xl md:font-extrabold md:py-4 md:leading-normal text-start font-semibold ">
         Optimized Marketing to
       </h5>
 
@@ -20,15 +20,15 @@ const Seosectionone = () => {
       <p className="text-white text-wrap text-base md:text-xl pb-4">
         Market your business to appear the best on the search engines
       </p>
-      <div className="flex justify-center items-center gap-1">
-        <button className=" py-2 px-4 md:py-4 md:px-6 bg-violet-600 text-white text-center font-bold">
+      <div className="flex justify-center items-center rounded-sm">
+        <button className=" py-2 px-4 md:py-3 md:px-6 bg-violet-600 text-white text-center font-bold text-sm md:text-lg">
           Custom Degital Marketing From
-          <span className="text-yellow-400 md:text-2xl text-center">
+          <span className="text-yellow-400 md:text-lg text-center">
             {" "}
             $299
           </span>{" "}
         </button>
-        <button className="py-2 px-4 md:py-4 md:px-4 bg-yellow-400 text-center md:text-2xl font-bold">
+        <button className="py-2 px-4 md:py-3 md:px-4 bg-yellow-400 text-center md:text-lg font-bold text-sm">
           Live Chat
         </button>
       </div>

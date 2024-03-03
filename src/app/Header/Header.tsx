@@ -16,7 +16,7 @@ const Header = () => {
   };
   return (
     <>
-      <div className="flex justify-between px-8 items-center  bg-slate-50 py-4 gap-x-2">
+      <div className="flex justify-between px-8 items-center  bg-slate-50 py-4 gap-x-2  ">
         <div>
           <Link href={"/"}>
             <Image src={"/header-logo.webp"} alt="" width={200} height={200} />

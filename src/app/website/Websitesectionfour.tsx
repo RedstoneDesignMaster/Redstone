@@ -11,13 +11,13 @@ const Websitesectionfour = () => {
   };
   return (
     <div>
-      <h5 className="text-center font-bold text-4xl py-10">
+      <h5 className="text-center font-bold text-xl md:text-4xl py-10 px-12 md:px-4">
         Web Design Features & Technology
       </h5>
       <div className="grid md:grid-cols-3 px-4 md:px-0 sm:gap-x-6">
         {/*Flex mobil */}
-        <div className="  pb-6">
-          <div className="border-2 mt-4 border-black ml-4 py-3 hover:border-orange-400 flex items-center justify-start gap-x-8">
+        <div className=" md:px-4 pb-6">
+          <div className="border-2 mt-4 border-black  py-3 hover:border-orange-400 flex items-center justify-start gap-x-8">
             <Image
               src={"/Button/cms-icon-01.webp"}
               alt=""
@@ -31,7 +31,7 @@ const Websitesectionfour = () => {
               Product Inventory
             </button>
           </div>
-          <div className="border-2 mt-4 border-black ml-4 py-3 hover:border-orange-400 flex items-center justify-start gap-x-8">
+          <div className="border-2 mt-4 border-black  py-3 hover:border-orange-400 flex items-center justify-start gap-x-8">
             <Image
               src={"/Button/cms-icon-02.webp"}
               alt=""
@@ -45,7 +45,7 @@ const Websitesectionfour = () => {
               Visuals and Descriptions
             </button>
           </div>
-          <div className="border-2 mt-4 border-black ml-4 py-3 hover:border-orange-400 flex items-center justify-start gap-x-8">
+          <div className="border-2 mt-4 border-black  py-3 hover:border-orange-400 flex items-center justify-start gap-x-8">
             <Image
               src={"/Button/cms-icon-02.webp"}
               alt=""
@@ -59,7 +59,7 @@ const Websitesectionfour = () => {
               Animation and Content
             </button>
           </div>
-          <div className="border-2 mt-4 border-black ml-4 py-3 hover:border-orange-400 flex items-center justify-start gap-x-8">
+          <div className="border-2 mt-4 border-black  py-3 hover:border-orange-400 flex items-center justify-start gap-x-8">
             <Image
               src={"/Button/cms-icon-02.webp"}
               alt=""
@@ -75,7 +75,7 @@ const Websitesectionfour = () => {
               Shopping Cart
             </button>
           </div>
-          <div className="border-2 mt-4 border-black ml-4 py-3 hover:border-orange-400 flex items-center justify-start gap-x-8">
+          <div className="border-2 mt-4 border-black  py-3 hover:border-orange-400 flex items-center justify-start gap-x-8">
             <Image
               src={"/Button/cms-icon-02.webp"}
               alt=""

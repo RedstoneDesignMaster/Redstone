@@ -1,4 +1,3 @@
-
 import Link from "next/link";
 import { useState } from "react";
 import React from "react";
@@ -19,9 +18,10 @@ const Portfolio = () => {
       <h1 className="md:text-4xl text-2xl text-center text-wrap">
         Brilliant Ideas <br /> That Create Great Value
       </h1>
-      <div className="flex font-normal items-center justify-center gap-4 py-8">
+      <div className="flex font-bold items-center justify-center  py-8 flex-shrink text-xs md:text-normal gap-x-2 md:gap-x-6 ">
         <button
           type="button"
+          className="hover:underline "
           onClick={() => {
             handleChange("logo");
           }}
@@ -30,6 +30,7 @@ const Portfolio = () => {
         </button>
         <button
           type="button"
+          className="hover:underline "
           onClick={() => {
             handleChange("stationery");
           }}
@@ -38,6 +39,7 @@ const Portfolio = () => {
         </button>
         <button
           type="button"
+          className="hover:underline "
           onClick={() => {
             handleChange("brochure");
           }}
@@ -46,6 +48,7 @@ const Portfolio = () => {
         </button>
         <button
           type="button"
+          className="hover:underline "
           onClick={() => {
             handleChange("website");
           }}
@@ -55,6 +58,7 @@ const Portfolio = () => {
         </button>
         <button
           type="button"
+          className="hover:underline "
           onClick={() => {
             handleChange("app");
           }}
@@ -65,12 +69,13 @@ const Portfolio = () => {
 
         <button
           type="button"
+          className="hover:underline "
           onClick={() => {
             handleChange("ani");
           }}
         >
           {" "}
-          Animatoins
+          ANIMATIONS
         </button>
       </div>
       <div>
