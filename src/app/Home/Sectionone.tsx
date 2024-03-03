@@ -1,5 +1,6 @@
 import React from "react";
 import Logos from "../components/Logos";
+import Link from "next/link";
 import Image from "next/image";
 const Sectionone = () => {
   return (
@@ -16,12 +17,24 @@ const Sectionone = () => {
         </p>
       </div>
       <div className="pt-10 md:px-6 grid grid-cols-2 sm:grid-cols-3 gap-4 md:grid-cols-6 md:pb-1 pb-8  ">
-        <Logos source="logo" title="Logo design"/>
-        <Logos source="mobapp" title="Mobile Application" />
-        <Logos source="ecom" title="E-commerce" />
-        <Logos source="web" title="Web design" />
-        <Logos source="videoani" title="Vedio Animation" />
-        <Logos source="digitalmark" title="Digital Marketing" />
+        <Link href={"/"}>
+          <Logos source="logo" title="Logo design" />
+        </Link>
+        <Link href={"mobile-app"}>
+          <Logos source="mobapp" title="Mobile Application" />
+        </Link>
+        <Link href={"website"}>
+          <Logos source="ecom" title="E-commerce" />
+        </Link>
+        <Link href={"website"}>
+          <Logos source="web" title="Web design" />
+        </Link>
+        <Link href={"animation"}>
+          <Logos source="videoani" title="Vedio Animation" />
+        </Link>
+        <Link href={"seo"}>
+          <Logos source="digitalmark" title="Digital Marketing" />
+        </Link>
       </div>
     </section>
   );

@@ -12,8 +12,8 @@ const PortfolioMobile = () => {
         Brilliant Ideas That Create Great Value
       </h5>
       <div className="grid grid-cols-2 sm:grid-cols-3 gap-5 px-2 pb-8">
-        <Portfolioview source="2" path="Mobile App" width={400} height={300} />
         <Portfolioview source="1" path="Mobile App" width={400} height={300} />
+        <Portfolioview source="2" path="Mobile App" width={400} height={300} />
         <Portfolioview source="3" path="Mobile App" width={400} height={300} />
         <Portfolioview source="4" path="Mobile App" width={400} height={300} />
         <Portfolioview source="5" path="Mobile App" width={400} height={300} />
