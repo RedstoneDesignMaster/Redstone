@@ -47,7 +47,7 @@ const Websitesectionsix = () => {
             </p>
           </div>
           <div className=" bg-white rounded-md  mx-auto md:w-1/2 h-1/2">
-            <img
+            <Image
               src={"/How/3.webp"}
               alt=""
               width={100}
