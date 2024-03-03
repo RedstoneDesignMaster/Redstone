@@ -18,7 +18,7 @@ const MobileSectionfour = () => {
             that builds up an absolute value proposition for your target
             audience. Since every project is unique and requires a specific set
             of dynamic needs and to make things within your means, we offer
-            multiple packages that can surely fit your budget.
+            multiple packages that can surely fit your budget.j
           </p>
           <button className="px-4 py-2 bg-violet-600 text-white font-bold text-lg rounded-sm text-start mb-8">
             Request a Custom Quote
