@@ -14,7 +14,7 @@ const MobileSectionfour = () => {
         </div>
         <div className="flex flex-col items-start sm:w-1/2 sm:justify-center sm:pt-12 sm:gap-y-8 sm:px-8">
           <p className="text-sm font-medium text-wrap text-gray-600 pb-4 text-start leading-7">
-            We don't just offer mobile applications but we deliver great value
+            We do not just offer mobile applications but we deliver great value
             that builds up an absolute value proposition for your target
             audience. Since every project is unique and requires a specific set
             of dynamic needs and to make things within your means, we offer
