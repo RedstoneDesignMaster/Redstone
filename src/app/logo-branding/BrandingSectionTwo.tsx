@@ -18,13 +18,13 @@ const BrandingSectionTwo = () => {
       </p>
       <p className="text-gray-600 text-wrap leading-9 sm:leading-8 text-center tex-sm sm:text-sm pt-8 hyphens-manual ">
         Our mission is to ensure that your brand comes to life through tailored
-        solutions that amplify and elevate your brand's current market standing.
+        solutions that amplify and elevate your brands current market standing.
         We offer fast, affordable and hassle-free services. We can identify the
         core targeted audience of your business and build a logo design which
         assists in appealing effectively. Through our custom logo design and
         branding services, we will strengthen the overall outlook of your
         business, provide a platform from which your business can benefit and
-        ensure that the business's overall vision is reflected within the logo.
+        ensure that the businesss overall vision is reflected within the logo.
       </p>
     </div>
   );
