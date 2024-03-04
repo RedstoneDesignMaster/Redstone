@@ -1,11 +1,12 @@
 import React from "react";
 import { useState } from "react";
+import Image from "next/image";
 const Portfiliowebsite = ({ src }: { src: string }) => {
   const [hover, setHover] = useState(false);
 
   return (
     <div className="md:w-[380px] md:h-[350px]  w-[170px] h-[200px] overflow-hidden">
-      <img
+      <Image
         src={`/website/${src}.webp`}
         alt="portfolio web"
         className={`w-full h-full object-cover  duration-1000 ease-in transform origin-top ${
