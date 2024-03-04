@@ -17,7 +17,7 @@ const Sectionone = () => {
         </p>
       </div>
       <div className="pt-10 md:px-6 grid grid-cols-2 sm:grid-cols-3 gap-4 md:grid-cols-6 md:pb-1 pb-8  ">
-        <Link href={"/"}>
+        <Link href={"/logo-branding"}>
           <Logos source="logo" title="Logo design" />
         </Link>
         <Link href={"mobile-app"}>

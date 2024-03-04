@@ -53,7 +53,7 @@ const Header = () => {
         </div>
       </div>
       <div className="hidden md:flex md:items-center md:justify-center md:gap-10 md:bg-violet-500 md:text-white md:font-semibold py-2 text-[14px] font-[500px] tracking-normal md:gap-x-24 ">
-        <Link href={"/"} className="hover:underline">
+        <Link href={"/logo-branding"} className="hover:underline">
           LOGO & BRANDING
         </Link>
         <Link href={"/website"} className="hover:underline">
@@ -88,7 +88,7 @@ const Header = () => {
         <div className="flex-col py-4 text-white text-start hover:underline">
           <ul>
             <li onClick={() => setOpen(false)} className="py-4 cursor-pointer">
-              <Link href={"/"}> LOGO & BRANDING</Link>
+              <Link href={"/logo-branding"}> LOGO & BRANDING</Link>
             </li>
             <li onClick={() => setOpen(false)} className="py-4 cursor-pointer">
               <Link href={"/website"}>WEBSITE DESIGN</Link>
