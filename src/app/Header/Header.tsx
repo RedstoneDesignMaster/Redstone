@@ -102,6 +102,9 @@ const Header = () => {
             <li className="py-4 cursor-pointer">
               <Link href={"/animation"}>ANIMATION</Link>
             </li>
+            <li className="py-4 cursor-pointer">
+              <Link href={"/about-us"}>About Us</Link>
+            </li>
           </ul>
         </div>
       </div>
