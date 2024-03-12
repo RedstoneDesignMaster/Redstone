@@ -24,14 +24,14 @@ const Header = () => {
         </div>
         <div className="hidden  md:flex md:justify-center md:items-center md:gap-4 md:whitespace-nowrap">
           <li className="list-none">
-            <Link href={"/"}>About us</Link>
+            <Link href={"/about-us"}>About us</Link>
           </li>
           <li className="list-none">
             {" "}
-            <Link href={"/"}>Pricing</Link>
+            <Link href={"/pricing"}>Pricing</Link>
           </li>
           <li className="list-none">
-            <Link href={"/"}>Contact us</Link>
+            <Link href={"/contact-us"}>Contact us</Link>
           </li>
         </div>
         <div className="hidden md:flex md:items-center md:justify-normal md:gap-2 md:whitespace-nowrap px-4 text-xl py-1 rounded-sm">
@@ -104,6 +104,9 @@ const Header = () => {
             </li>
             <li className="py-4 cursor-pointer">
               <Link href={"/about-us"}>About Us</Link>
+            </li>
+            <li className="py-4 cursor-pointer">
+              <Link href={"/pricing"}>Pricing</Link>
             </li>
           </ul>
         </div>

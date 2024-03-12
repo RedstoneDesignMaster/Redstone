@@ -14,6 +14,7 @@ import Leadform from "../components/Leadform";
 import Footer from "../components/Footer";
 import Copyrights from "../components/Copyrights";
 import Websitesectionsix from "./Websitesectionsix";
+import WebsitePackageview from "./website packages/WebsitePackageview";
 
 const page = () => {
   return (
@@ -56,7 +57,7 @@ const page = () => {
       </div>
       <Websectionone />
       <Websitesectiontwo />
-      <Webpackage />
+      <WebsitePackageview />
       <Websitesectionthree />
       <Websitesectionfour />
       <Websiteportfolio />

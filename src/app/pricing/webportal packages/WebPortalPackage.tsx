@@ -11,7 +11,7 @@ interface PackageCardProps {
   pack: Package;
 }
 
-const AnimationPackage: React.FC<PackageCardProps> = ({ pack }) => {
+const WebPortalPackage: React.FC<PackageCardProps> = ({ pack }) => {
   return (
     <div className="package-card border-2 w-full sm:w-auto rounded-md shadow-md">
       <h5 className="text-4xl md:text-xl md:font-bold font-extrabold text-center  text-wrap pt-9 text-violet-800 ">
@@ -48,4 +48,4 @@ const AnimationPackage: React.FC<PackageCardProps> = ({ pack }) => {
   );
 };
 
-export default AnimationPackage;
+export default WebPortalPackage;

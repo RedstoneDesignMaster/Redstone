@@ -5,13 +5,14 @@ import Seopackages from "./Seopackages";
 import Seosectionthree from "./Seosectionthree";
 import Seosectionfour from "./Seosectionfour";
 import Testimonial from "../Home/Testimonial";
+import SeoPackageview from "./Seo Packagez/SeoPackageview";
 
 const page = () => {
   return (
     <div>
       <Seosectionone />
       <Seosectiontwo />
-      <Seopackages />
+      <SeoPackageview/>
       <Seosectionthree />
       <Seosectionfour />
     </div>

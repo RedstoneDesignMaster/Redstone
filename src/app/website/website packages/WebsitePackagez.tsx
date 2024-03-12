@@ -11,7 +11,7 @@ interface PackageCardProps {
   pack: Package;
 }
 
-const AnimationPackage: React.FC<PackageCardProps> = ({ pack }) => {
+const WebsitePackagez: React.FC<PackageCardProps> = ({ pack }) => {
   return (
     <div className="package-card border-2 w-full sm:w-auto rounded-md shadow-md">
       <h5 className="text-4xl md:text-xl md:font-bold font-extrabold text-center  text-wrap pt-9 text-violet-800 ">
@@ -23,7 +23,7 @@ const AnimationPackage: React.FC<PackageCardProps> = ({ pack }) => {
       <h5 className="py-6 bg-gray-300 bg-opacity-50 text-center font-extrabold text-3xl">
         {pack.price}.00
       </h5>
-      <div className="  text-start text-wrap max-h-[300px] md:max-h-[350px] overflow-y-scroll px-12">
+      <div className="  text-start text-wrap max-h-[400px] md:max-h-[400px] overflow-y-scroll px-12">
         <ul className="py-4 leading-8 text-sm md:px-4 list-disc">
           {pack.services.map((service, index) => (
             <li key={index}>{service}</li>
@@ -48,4 +48,4 @@ const AnimationPackage: React.FC<PackageCardProps> = ({ pack }) => {
   );
 };
 
-export default AnimationPackage;
+export default WebsitePackagez;

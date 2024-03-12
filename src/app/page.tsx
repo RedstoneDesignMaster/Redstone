@@ -14,6 +14,8 @@ import Testimonial from "./Home/Testimonial";
 import Leadform from "./components/Leadform";
 import Footer from "./components/Footer";
 import Copyrights from "./components/Copyrights";
+import "./globals.css";
+import PricingTab from "./pricing/PricingTab";
 
 export default function Home() {
   return (
@@ -23,7 +25,8 @@ export default function Home() {
       <Sectiontwo />
       <Portfolio />
       <Sectionfour />
-      <Package />
+      {/* <Package /> */}
+      <PricingTab />
       <Testimonial />
     </>
   );
