@@ -12,7 +12,7 @@ const page = () => {
   return (
     <div className="flex flex-col justify-center items-center">
       <h5 className="text-lg text-center text-yellow-400 hover:text-violet-300">
-        Yousuf Shah the geekhor kxn
+        Feel free to discuss your requirements{" "}
       </h5>
       <button
         className="bg-violet-500 py-2 px-5 rounded-md text-white font-bold my-8 hover:bg-violet-600"
