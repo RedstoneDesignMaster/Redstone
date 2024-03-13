@@ -3,6 +3,11 @@ import { useState } from "react";
 import React from "react";
 import Logosection from "./Logosection";
 import Stationerysection from "./Stationerysection";
+import Portfiliowebsite from "./Portfiliowebsite";
+import Websiteportfolio from "../website/Websiteportfolio";
+import PortfolioMobile from "../mobile-app/PortfolioMobile";
+import PortfolioAnimation from "../animation/PortfolioAnimation";
+import Brochuresection from "./Brochuresection";
 const Portfolio = () => {
   const [tab, setTab] = useState("logo");
   const handleChange = (e: any) => {
@@ -50,7 +55,7 @@ const Portfolio = () => {
           type="button"
           className="hover:underline "
           onClick={() => {
-            handleChange("website");
+            handleChange("web");
           }}
         >
           {" "}
@@ -71,7 +76,7 @@ const Portfolio = () => {
           type="button"
           className="hover:underline "
           onClick={() => {
-            handleChange("ani");
+            handleChange("animation");
           }}
         >
           {" "}
@@ -81,6 +86,10 @@ const Portfolio = () => {
       <div>
         {tab === "logo" && <Logosection />}
         {tab == "stationery" && <Stationerysection />}
+        {tab == "brochure" && <Brochuresection />}
+        {tab == "web" && <Websiteportfolio />}
+        {tab == "app" && <PortfolioMobile />}
+        {tab == "animation" && <PortfolioAnimation />}
       </div>
     </div>
   );
