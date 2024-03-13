@@ -16,6 +16,7 @@ import Footer from "./components/Footer";
 import Copyrights from "./components/Copyrights";
 import "./globals.css";
 import PricingTab from "./pricing/PricingTab";
+import HomePricingTab from "./components/HomePricingTab";
 
 export default function Home() {
   return (
@@ -26,7 +27,7 @@ export default function Home() {
       <Portfolio />
       <Sectionfour />
       {/* <Package /> */}
-      <PricingTab />
+      <HomePricingTab />
       <Testimonial />
     </>
   );

@@ -8,6 +8,9 @@ import Websiteportfolio from "../website/Websiteportfolio";
 import PortfolioMobile from "../mobile-app/PortfolioMobile";
 import PortfolioAnimation from "../animation/PortfolioAnimation";
 import Brochuresection from "./Brochuresection";
+import WebPortfolio from "./WebPortfolio";
+import AppPortfolio from "./AppPortfolio";
+import AnimationPortfolio from "./AnimationPortfolio";
 const Portfolio = () => {
   const [tab, setTab] = useState("logo");
   const handleChange = (e: any) => {
@@ -87,9 +90,9 @@ const Portfolio = () => {
         {tab === "logo" && <Logosection />}
         {tab == "stationery" && <Stationerysection />}
         {tab == "brochure" && <Brochuresection />}
-        {tab == "web" && <Websiteportfolio />}
-        {tab == "app" && <PortfolioMobile />}
-        {tab == "animation" && <PortfolioAnimation />}
+        {tab == "web" && <WebPortfolio />}
+        {tab == "app" && <AppPortfolio />}
+        {tab == "animation" && <AnimationPortfolio />}
       </div>
     </div>
   );

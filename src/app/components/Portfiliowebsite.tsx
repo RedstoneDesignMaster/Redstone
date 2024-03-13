@@ -9,8 +9,8 @@ const Portfiliowebsite = ({ src }: { src: string }) => {
       <Image
         src={`/website/${src}.webp`}
         alt="portfolio web"
-        width={400}
-        height={400}
+        width={500}
+        height={500}
         className={`w-full h-full object-cover  duration-1000 ease-in transform origin-top ${
           hover ? "object-bottom-center" : ""
         }`}
