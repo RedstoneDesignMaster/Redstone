@@ -43,7 +43,7 @@ const page = () => {
                 Welcome to Red Stone, a 360 Digital Marketing Agency that works
                 round the clock to meet your expectations. As a marketing
                 agency, we have curated a team of professional designers,
-                creatives, strategists, and developers. Our team isn't just a
+                creatives, strategists, and developers. Our team is not just a
                 bunch of people but a bundle of creative professionals with vast
                 industry experience. Logo Zeal aims to introduce new heights of
                 creativity and grow your business to the pinnacle. We are
@@ -134,7 +134,7 @@ const page = () => {
                 Solutions
               </h5>
               <p className="text-sm text-white text-center text-wrap px-12 sm:px-2">
-                There is no digital problem that we can't solve
+                There is no digital problem that we can not solve
               </p>
             </div>
           </div>
@@ -147,7 +147,7 @@ const page = () => {
             </p>
             <ul className="text-sm font-medium list-disc leading-8 py-8 pl-8 sm:pl-0">
               <li className="text-blue-300">
-                Dedicated to your business's digital identity
+                Dedicated to your business digital identity
               </li>
               <li className="text-violet-300">
                 Original and error-proof design and services
