@@ -40,7 +40,7 @@ const page = () => {
                 Enhancement
               </h6>
               <p className="text-sm text-gray-500 text-start text-wrap leading-8 tracking-wide">
-                Welcome to Logo Zeal, a 360 Digital Marketing Agency that works
+                Welcome to Red Stone, a 360 Digital Marketing Agency that works
                 round the clock to meet your expectations. As a marketing
                 agency, we have curated a team of professional designers,
                 creatives, strategists, and developers. Our team isn't just a
@@ -50,7 +50,7 @@ const page = () => {
                 professional, confident, and achievers. We bring results that we
                 promise. Our expert opinions are based on test and trial methods
                 experimented with over the years.
-                <br /> Logo Zeal is happy to welcome all enterprises, startups,
+                <br /> Red Stone is happy to welcome all enterprises, startups,
                 and established businesses on the boat of certain success.
               </p>
             </div>
