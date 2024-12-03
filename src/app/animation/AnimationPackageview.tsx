@@ -4,7 +4,7 @@ import packages from "../animation/constants";
 
 const AnimationPackageview = () => {
   return (
-    <div className="mt-20 py-10 sm:py-0 px-14">
+    <div className="mt-20 py-10 sm:py-0 px-14 sm:mb-8">
       <h5 className="text-center font-extrabold text-3xl py-8 sm:py-2 text-violet-600 underline underline-offset-3">
         Packages
       </h5>

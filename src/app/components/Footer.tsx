@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <section className="bg-gray-900 ">
+    <section className="bg-gray-900 rounded-[20px] shadow-lg mx-8 my-2">
       <div className="md:flex sm:flex-col md:flex-row px-4 md:px-0 md:items-start md:justify-center   md:m-auto md:py-20 mt-4">
         <div className="md:flex md:flex-col md:items-start md:w-1/4">
           <h5 className="text-white font-bold text-xl md:text-2xl ">
@@ -26,11 +26,10 @@ const Footer = () => {
               <Link href="" className="pt-4">
                 Home
               </Link>
-              <Link href="">About Gojozeal</Link>
+              <Link href="/about-us">About Red Stone</Link>
               <Link href="">Recent Work</Link>
-              <Link href="">Packages</Link>
-              <Link href="">Contact Us</Link>
-              <Link href="">Blogs</Link>
+              <Link href="/pricing">Packages</Link>
+              <Link href="/contact-us">Contact Us</Link>
             </div>
           </div>
           <div className="text-white md:flex md:flex-col md:items-center md:text-start md:px-6 ">
@@ -50,12 +49,14 @@ const Footer = () => {
           <h5 className="text-white font-bold text-xl ">Stay in touch</h5>
           <p className="text-indigo-600 text-sm font-semibold">Located at</p>
           <p className="text-white text-wrap text-center">
-            208 W. Main Street, Salisbury, MD 21801
+            11956 Bernardo Plaza Drive, #356, San Diego, CA 92128.
           </p>
           <p className="text-indigo-600 text-sm font-semibold">Call us</p>
-          <p className="text-white text-wrap text-center">(800) 840-4530</p>
+          <p className="text-white text-wrap text-center">+1 909 307 4060</p>
           <p className="text-indigo-600 text-sm font-semibold">Write to Us </p>
-          <p className="text-white text-wrap text-center">info@gojozeal.com</p>
+          <p className="text-white text-wrap text-center">
+            jack@redstonedesignmaster.com
+          </p>
         </div>
       </div>
     </section>

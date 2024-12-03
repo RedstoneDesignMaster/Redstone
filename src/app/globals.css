@@ -32,3 +32,28 @@
 .home-second-wrapper-tabs .nav-tabs .nav-link:hover::before {
   transform: scale(1);
 }
+@layer components {
+  .scrollbar-custom {
+    scrollbar-width: small;
+    scrollbar-color: #2e2a49 #e0e0e0; /* Color for the thumb and track */
+  }
+
+  /* For Webkit browsers (Chrome, Safari, Edge) */
+  .scrollbar-custom::-webkit-scrollbar {
+    width: 4px;
+  }
+
+  .scrollbar-custom::-webkit-scrollbar-track {
+    background: #e0e0e0;
+    border-radius: 4px;
+  }
+
+  .scrollbar-custom::-webkit-scrollbar-thumb {
+    background-color: #6c63ff;
+    border-radius: 4px;
+  }
+
+  .scrollbar-custom::-webkit-scrollbar-thumb:hover {
+    background-color: #4b47c1;
+  }
+}

@@ -30,7 +30,7 @@ const Sectionone = () => {
           <Logos source="web" title="Web design" />
         </Link>
         <Link href={"animation"}>
-          <Logos source="videoani" title="Vedio Animation" />
+          <Logos source="videoani" title="Video Animation" />
         </Link>
         <Link href={"seo"}>
           <Logos source="digitalmark" title="Digital Marketing" />

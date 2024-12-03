@@ -9,7 +9,7 @@ const PrcingSectionOne = () => {
           backgroundImage: "url('/About Us/about-us-banner.webp')",
         }}
       >
-        <h5 className="line-clamp-5 leading-snug  text-center text-white text-6xl text-wrap font-extrabold sm:text-5xl py-14 sm:py-44">
+        <h5 className="line-clamp-5 leading-snug  text-center text-white text-3xl text-wrap font-extrabold sm:text-5xl py-14 sm:py-44">
           Best Marketing Services Grow Your <br className="hidden sm:block" />{" "}
           Business With Us!
         </h5>

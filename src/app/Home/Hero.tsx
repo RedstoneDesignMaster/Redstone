@@ -32,16 +32,16 @@ const Hero = () => {
           <section className="pt-8  pb-16 md:pt-4 md:pb-4 mt-4 ">
             <span>
               <Link
-                href={""}
+                href={"/contact-us"}
                 className="bg-violet-600 hover:bg-violet-500 py-2 px-4 text-base font-bold "
               >
                 Lets Get Started {<ChevronRightIcon />}
               </Link>
               <Link
-                href={""}
+                href={"tel:+1 909 307 4060"}
                 className="bg-yellow-500 hover:bg-violet-500 py-2 px-4 text-base font-bold"
               >
-                Live Chat
+                Book Appointment
               </Link>
             </span>
           </section>

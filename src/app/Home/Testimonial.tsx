@@ -5,7 +5,7 @@ import TestimonialCrousel from "../components/TestimonialCrousel";
 const Testimonial = () => {
   return (
     <div
-      className="bg-cover mt-8 pt-2"
+      className="bg-cover  pt-2 rounded-[20px] mx-8"
       style={{
         backgroundImage: 'url("/Testimonials/testimonial-banner.webp")',
       }}

@@ -14,7 +14,7 @@ const TestimonialCrousel = () => {
     autoplaySpeed: 1000,
   };
   return (
-    <div className="text-white w-3/4 mx-auto mt-8 mb-10">
+    <div className="text-white w-3/4 mx-auto mt-8 mb-10  ">
       <Slider {...settings}>
         <div>
           <div className="flex items-center justify-start gap-x-2 bg-white text-black mb-8">

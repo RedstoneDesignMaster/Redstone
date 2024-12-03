@@ -5,7 +5,7 @@ const Sectionfour = () => {
   return (
     <>
       <div className="md:h-screen ">
-        <div className="bg-violet-700 py-3 text-center md:pt-20 pt-10 ">
+        <div className="bg-violet-700 py-3 text-center md:pt-20 pt-10 rounded-[20px] mx-8 mt-6">
           <h5 className="md:text-4xl text-xl font-bold text-white">
             Let Us Give Your Brand An Identity <br />
             That Speaks It All For You!
@@ -17,12 +17,9 @@ const Sectionfour = () => {
           <div className="flex items-center justify-center gap-2 md:pb-8 pb-2 ">
             <Link
               className="px-4 py-2 bg-yellow-500 hover:bg-yellow-400 text-sm font-bold rounded-sm"
-              href={""}
+              href={"tel:+1 909 307 4060"}
             >
               Request a Custom Quote
-            </Link>
-            <Link className="px-4 py-2 bg-[#ffff] text-sm font-bold rounded-sm " href={""}>
-              View All Project
             </Link>
           </div>
         </div>

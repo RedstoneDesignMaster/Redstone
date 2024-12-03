@@ -16,10 +16,10 @@ const Header = () => {
   };
   return (
     <>
-      <div className="flex justify-between px-8 items-center  bg-slate-50 py-4 gap-x-2  ">
+      <div className="flex justify-between px-8 items-center  bg-slate-50 gap-x-2  ">
         <div>
           <Link href={"/"}>
-            <Image src={"/header-logo.webp"} alt="" width={200} height={200} />
+            <Image src={"/R1.png"} alt="" width={120} height={50} />
           </Link>
         </div>
         <div className="hidden  md:flex md:justify-center md:items-center md:gap-4 md:whitespace-nowrap">
@@ -38,14 +38,14 @@ const Header = () => {
           <i>
             <CallIcon />
           </i>
-          <p>(800) 840-4530</p>
+          <a href="tel:+19093074060">+1 909 307 4060 </a>
           <div className="hidden lg:block lg:gap-x-2">
-            <Button
-              variant="contained"
-              className=" bg-violet-600 hover:bg-yellow-400 transition duration-500 ease-in-out text-white py-3 px-4 rounded-md"
+            <Link
+              href={"/contact-us"}
+              className=" bg-violet-600 hover:bg-yellow-400 transition duration-500 ease-in-out text-white py-3 px-4 rounded-md font-bold text-sm shadow-md"
             >
-              Reques a Custom Quote
-            </Button>
+              Seeking a quote
+            </Link>
           </div>
         </div>
         <div className="md:hidden" onClick={handleNav}>

@@ -23,8 +23,8 @@ const AnimationPackage: React.FC<PackageCardProps> = ({ pack }) => {
       <h5 className="py-6 bg-gray-300 bg-opacity-50 text-center font-extrabold text-3xl">
         {pack.price}.00
       </h5>
-      <div className="  text-start text-wrap max-h-[300px] md:max-h-[350px] overflow-y-scroll px-12">
-        <ul className="py-4 leading-8 text-sm md:px-4 list-disc">
+      <div className="  text-start text-wrap max-h-[300px] md:max-h-[250px] overflow-y-scroll px-12">
+        <ul className="py-4 leading-8 text-xs md:px-4 list-disc">
           {pack.services.map((service, index) => (
             <li key={index}>{service}</li>
           ))}
