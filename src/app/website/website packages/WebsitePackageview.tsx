@@ -2,7 +2,7 @@ import React from "react";
 import packages from "./constantweb";
 import WebsitePackagez from "./WebsitePackagez";
 
-const WebsitePackageview = () => {
+const WebsitePackageview = (): any => {
   return (
     <div className="mt-20 py-10 px-14">
       <h5 className="text-center font-extrabold text-xl sm:text-5xl py-8 text-black text-wrap px-8 sm:leading-normal">
