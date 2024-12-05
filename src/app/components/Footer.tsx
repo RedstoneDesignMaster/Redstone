@@ -39,7 +39,7 @@ const Footer = () => {
                 Logo & Branding
               </Link>
               <Link href={"/seo"}>SEO</Link>
-              <Link href={"/website"}>Website Design</Link>
+              <Link href={"/website-packages"}>Website packages</Link>
               <Link href={"/mobile-app"}>Mobile Application</Link>
               <Link href={"animation"}>Video Animation</Link>
             </div>
