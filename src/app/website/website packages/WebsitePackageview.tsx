@@ -1,5 +1,5 @@
 import React from "react";
-import packages from "./constantweb";
+import packages from "./pointersweb";
 import WebsitePackagez from "./WebsitePackagez";
 
 const WebsitePackageview = (): any => {
