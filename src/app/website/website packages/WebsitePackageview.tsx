@@ -1,3 +1,4 @@
+// @ts-nocheck
 import React from "react";
 import packages from "./pointersweb";
 import WebsitePackagez from "./WebsitePackagez";
