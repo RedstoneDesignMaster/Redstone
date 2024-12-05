@@ -24,7 +24,7 @@ const WebsitePackagez = ({ pack }) => {
       <h5 className="py-6 bg-gray-300 bg-opacity-50 text-center font-extrabold text-3xl">
         {pack.price}.00
       </h5>
-      <div className="  text-start text-wrap max-h-[400px] md:max-h-[400px] overflow-y-scroll px-12">
+      <div className="  text-start text-wrap h-64 md:max-h-[400px] overflow-y-scroll px-12">
         <ul className="py-4 leading-8 text-sm md:px-4 list-disc">
           {pack.services.map((service, index) => (
             <li key={index}>{service}</li>
