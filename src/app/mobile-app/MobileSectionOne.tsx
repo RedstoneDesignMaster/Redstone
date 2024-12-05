@@ -5,7 +5,7 @@ const MobileSectionOne = () => {
     <div
       className=" flex flex-col   items-start px-4 h-[400px] justify-center md:bg-cover md:bg-center md:h-screen"
       style={{
-        backgroundImage: "url('/Mobile App/mobile-banner.webp')",
+        backgroundImage: "url('/Mobile-app/mobile-banner.webp')",
       }}
     >
       <h5 className="text-white text-xl  sm:text-3xl font-bold text-start">
