@@ -12,7 +12,7 @@ interface PackageCardProps {
   pack: Package;
 }
 
-const WebsitePackagez: React.FC<PackageCardProps> = ({ pack }) => {
+const WebsitePackagez = ({ pack }) => {
   return (
     <div className="package-card border-2 w-full sm:w-auto rounded-md shadow-md">
       <h5 className="text-4xl md:text-xl md:font-bold font-extrabold text-center  text-wrap pt-9 text-violet-800 ">
