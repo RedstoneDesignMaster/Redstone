@@ -50,7 +50,7 @@ const MobileSectionthree = () => {
 
         <div className="pr-12">
           <Image
-            src={"/Mobile App/mobile1.webp"}
+            src={"/Mobile-app/mobile1.webp"}
             alt="CMS 2"
             width={400}
             height={400}
@@ -62,7 +62,7 @@ const MobileSectionthree = () => {
           Choosing the Right technology stack to build your app
         </h5>
         <Image
-          src={"/Mobile App/logo-brand.webp"}
+          src={"/Mobile-app/logo-brand.webp"}
           alt="logo"
           height={400}
           width={800}

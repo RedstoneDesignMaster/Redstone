@@ -10,7 +10,7 @@ const MobileSectionfour = () => {
       </h5>
       <div className="flex flex-col sm:flex-row  sm:gap-x-10 items-start justify-center gap-y-6 px-4 sm:px-8">
         <div className="pb-8 sm:w-1/2">
-          <Image src={"/Mobile App/h2.webp"} alt="" height={400} width={600} />
+          <Image src={"/Mobile-app/h2.webp"} alt="" height={400} width={600} />
         </div>
         <div className="flex flex-col items-start sm:w-1/2 sm:justify-center sm:pt-12 sm:gap-y-8 sm:px-8">
           <p className="text-sm font-medium text-wrap text-gray-600 pb-4 text-start leading-7">
