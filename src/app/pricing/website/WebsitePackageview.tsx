@@ -1,7 +1,6 @@
 import React from "react";
-import packages from 'const'
-import WebsitePackagez from "./WebsitePackagez";
-
+import packages from "@/app/website/website packages/pointersweb";
+import WebsitePackagez from "@/app/website/website packages/WebsitePackagez";
 const WebsitePackageview = () => {
   return (
     <div className="mt-20 py-10 px-14">
