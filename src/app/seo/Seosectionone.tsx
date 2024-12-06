@@ -1,5 +1,5 @@
 import React from "react";
-
+import Link from "next/link";
 const Seosectionone = () => {
   return (
     <div
@@ -21,16 +21,19 @@ const Seosectionone = () => {
         Market your business to appear the best on the search engines
       </p>
       <div className="flex justify-center items-center ">
-        <button className=" py-2 px-4 md:py-3 md:px-6 bg-violet-600 text-black text-center font-bold text-sm md:text-lg rounded-l-md">
+        <button className=" py-2 px-4 md:py-3 md:px-6 bg-violet-600 text-white text-center font-bold text-sm md:text-lg rounded-l-md">
           Custom Degital Marketing From
           <span className="text-orange-500 md:text-lg text-center">
             {" "}
             $299
           </span>{" "}
         </button>
-        <button className="py-2 px-4 md:py-3 md:px-4 bg-orange-400 text-center md:text-lg font-bold text-sm rounded-r-md">
-          Live Chat
-        </button>
+        <Link
+          href={"tel:+1 909 307 4060"}
+          className="py-2 px-4 md:py-3 md:px-4 bg-orange-400 text-center md:text-lg font-bold text-sm rounded-r-md"
+        >
+          Live Talk
+        </Link>
       </div>
     </div>
   );

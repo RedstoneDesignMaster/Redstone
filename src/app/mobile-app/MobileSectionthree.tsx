@@ -1,7 +1,13 @@
+"use client";
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { useState } from "react";
+import PopupModal from "../order-form/PopupModal";
+
 const MobileSectionthree = () => {
+  const [isModalOpen, setModalOpen] = useState(false);
+
   return (
     <>
       <div
@@ -39,12 +45,16 @@ const MobileSectionthree = () => {
             </div>
           }
           <div className="mb-8">
-            <Link
-              href={""}
-              className="py-2 px-4 text-lg text-white rounded-sm font-bold bg-violet-600 "
+            <button
+              onClick={() => setModalOpen(true)}
+              className="px-4 py-2 bg-violet-600 text-white rounded-lg hover:bg-violet-400 font-medium text-base"
             >
-              Request a Custom Quote
-            </Link>
+              Request a Quote
+            </button>
+            <PopupModal
+              isOpen={isModalOpen}
+              onClose={() => setModalOpen(false)}
+            />
           </div>
         </div>
 

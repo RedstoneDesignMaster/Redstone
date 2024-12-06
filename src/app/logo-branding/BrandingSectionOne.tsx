@@ -1,7 +1,11 @@
+"use client";
 import React from "react";
+import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import PopupModal from "../order-form/PopupModal";
 const BrandingSectionOne = () => {
+  const [isModalOpen, setModalOpen] = useState(false);
   return (
     <>
       <div
@@ -21,15 +25,19 @@ const BrandingSectionOne = () => {
           </p>
           <section className="pt-8  pb-16 md:pt-4 md:pb-4 mt-4 ">
             <span>
-              <Link
-                href={""}
-                className="bg-violet-600 hover:bg-violet-500 py-2 px-4 text-base font-bold "
+              <button
+                onClick={() => setModalOpen(true)}
+                className="px-4 py-[6px] bg-violet-600 text-white rounded-l-lg hover:bg-violet-400 "
               >
-                Lets Get Started $59.00
-              </Link>
+                Let's get started $59.00
+              </button>
+              <PopupModal
+                isOpen={isModalOpen}
+                onClose={() => setModalOpen(false)}
+              />
               <Link
-                href={""}
-                className="bg-orange-400 hover:bg-violet-500 py-2 px-4 text-base font-bold"
+                href={"tel:+1 909 307 4060"}
+                className="bg-orange-400 hover:bg-orange-600 py-2 px-4  rounded-r-lg font-medium"
               >
                 Live Chat
               </Link>

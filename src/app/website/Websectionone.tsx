@@ -12,9 +12,11 @@ const Websectionone = () => {
       <p className="text-center text-wrap pb-4 align-middle break-normal px-20 text-slate-600 pt-8">
         Engage your audience with appealing website design and responsive
         development. The website is where your customers will understand your
-        business and credibility in the industry. Logo Zeal is the leading web
-        design and development agency in the USA, providing complete design and
-        development solutions to create useful web solutions for clients.
+        business and credibility in the industry.{" "}
+        <span className="font-bold text-orange-500">Red Stone</span> is the
+        leading web design and development agency in the USA, providing complete
+        design and development solutions to create useful web solutions for
+        clients.
         <br /> <br /> We have a team of creative designers and skilled
         developers who are experienced in delivering the best web solutions. Our
         team has proved to be the best of all types of web design & development

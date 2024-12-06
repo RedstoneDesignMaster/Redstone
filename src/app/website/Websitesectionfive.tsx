@@ -1,7 +1,10 @@
-import Image from "next/image";
+"use client";
 import React from "react";
+import { useState } from "react";
+import PopupModal from "../order-form/PopupModal";
 
-const Websitesectionfive = () => {
+const Websitesectionfive: React.FC = () => {
+  const [isModalOpen, setModalOpen] = useState(false);
   return (
     <>
       <div className="mt-10 flex flex-col items-center justify-start pt-8">
@@ -12,9 +15,18 @@ const Websitesectionfive = () => {
         <p className="text-lg md:text-2xl text-gray-500 text-center text-wrap pt-4 px-4 md:px-1">
           We transform creative ideas into stunning realities
         </p>
-        <button className="py-4 px-6 bg-violet-700 text-white text-base font-bold rounded-md  shadow-sm md:text-lg mb-10 mt-4">
-          Request Custom Quote
-        </button>
+        <div className="py-4">
+          <button
+            onClick={() => setModalOpen(true)}
+            className="px-4 py-2 bg-violet-600 text-white rounded-lg hover:bg-violet-400 font-medium"
+          >
+            Request a Quote
+          </button>
+          <PopupModal
+            isOpen={isModalOpen}
+            onClose={() => setModalOpen(false)}
+          />
+        </div>
       </div>
     </>
   );

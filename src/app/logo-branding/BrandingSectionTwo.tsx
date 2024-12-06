@@ -7,7 +7,7 @@ const BrandingSectionTwo = () => {
         We Transform The Right Design Theory Into A Powerful Brand Identity!
       </h5>
       <p className="text-gray-600 text-wrap leading-9 sm:leading-8 text-center text-sm sm:text-sm hyphens-manual">
-        Welcome to logo zeal. We are a full-service design agency with extensive
+        Welcome to Red Stone. We are a full-service design agency with extensive
         experience in professional digital branding services, including custom
         logo designs, stationery designs, brochure designs, banner designs and a
         lot more that can help businesses meet most of their branding needs. We

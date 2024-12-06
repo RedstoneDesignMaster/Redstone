@@ -45,8 +45,8 @@ const Websitesectionthree = () => {
       </div>
       <div className="flex flex-col md:flex-row gap-y-8 md:gap-y-0 items-center gap-x-14 justify-around ">
         <Link
-          href={""}
-          className="px-6 py-4 text-center font-semibold bg-violet-500"
+          href={"tel:+1 909 307 4060"}
+          className="px-6 py-4 text-center font-semibold bg-violet-500 rounded-full"
         >
           Request for a Quote
         </Link>
@@ -55,8 +55,8 @@ const Websitesectionthree = () => {
           Package Tailored To Your Needs
         </p>
         <Link
-          href={""}
-          className="px-6 py-4 text-center font-semibold bg-[#f09800]"
+          href={"tel:+1 909 307 4060"}
+          className="px-6 py-4 text-center font-bold bg-orange-400 rounded-full text-black"
         >
           Discuss with Design Conultant
         </Link>

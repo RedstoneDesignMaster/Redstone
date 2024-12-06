@@ -17,7 +17,7 @@ const Seosectionfour = () => {
             Fliptainment
           </h5>
           <p className="text-wrap text-start line-clamp-8 text-sm md:text-base leading-6 md:leading-8 md:pr-8 ">
-            Gojo zeal proved to be a distinguished design agency. They helped us
+            Red Stone proved to be a distinguished design agency. They helped us
             in not just revamping our website with a whole new look and feel
             but, made it possible for us to achieve strong brand retention
             through their brilliant services and solutions.

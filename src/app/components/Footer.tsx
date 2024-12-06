@@ -12,7 +12,7 @@ const Footer = () => {
           </h5>
 
           <p className="text-whtie text-sm text-white  w-full md:w-auto py-4 ">
-            Gojo Zeal is a Digital Marketing Agency that provides comprehensive
+            Red Stone is a Digital Marketing Agency that provides comprehensive
             digital services, including individual logo design and website
             development assistance.
           </p>

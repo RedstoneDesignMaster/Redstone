@@ -1,8 +1,12 @@
+"use client";
 import Image from "next/image";
-import React from "react";
+import React, { useState } from "react";
 import Link from "next/link";
+import PopupModal from "../order-form/PopupModal";
 
 const MobileSectionfour = () => {
+  const [isModalOpen, setModalOpen] = useState(false);
+
   return (
     <div className="mt-8 ">
       <h5 className="text-center text-3xl font-bold pb-8">
@@ -18,11 +22,18 @@ const MobileSectionfour = () => {
             that builds up an absolute value proposition for your target
             audience. Since every project is unique and requires a specific set
             of dynamic needs and to make things within your means, we offer
-            multiple packages that can surely fit your budget.j
+            multiple packages that can surely fit your budget.
           </p>
-          <button className="px-4 py-2 bg-violet-600 text-white font-bold text-lg rounded-sm text-start mb-8">
-            Request a Custom Quote
+          <button
+            onClick={() => setModalOpen(true)}
+            className="px-4 py-2 bg-violet-600 text-white rounded-lg hover:bg-violet-400 font-medium text-base"
+          >
+            Request a Quote
           </button>
+          <PopupModal
+            isOpen={isModalOpen}
+            onClose={() => setModalOpen(false)}
+          />
         </div>
       </div>
     </div>

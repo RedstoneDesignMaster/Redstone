@@ -1,6 +1,11 @@
+"use client";
 import React from "react";
+import { useState } from "react";
+import PopupModal from "../order-form/PopupModal";
+import Link from "next/link";
 
 const MobileSectionOne = () => {
+  const [isModalOpen, setModalOpen] = useState(false);
   return (
     <div
       className=" flex flex-col   items-start px-4 h-[400px] justify-center md:bg-cover md:bg-center md:h-screen"
@@ -24,12 +29,19 @@ const MobileSectionOne = () => {
         organized, and functional app.
       </p>
       <div className="flex justify-center items-center gap-0 mb-4">
-        <button className="text-base text-white font-bold py-2 px-5 bg-violet-600 rounded-sm">
-          Request Custom Quote
+        <button
+          onClick={() => setModalOpen(true)}
+          className="px-4 py-2 bg-violet-600 text-white rounded-l-lg hover:bg-violet-400 text-base font-bold"
+        >
+          Order Now
         </button>
-        <button className="text-base text-white font-bold py-2 px-5 bg-yellow-400 rounded-r-sm">
+        <PopupModal isOpen={isModalOpen} onClose={() => setModalOpen(false)} />
+        <Link
+          href={"tel:+1 909 307 4060"}
+          className="text-base text-white font-bold py-2 px-5 bg-yellow-400 rounded-r-lg "
+        >
           Live Chat
-        </button>
+        </Link>
       </div>
     </div>
   );

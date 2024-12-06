@@ -7,10 +7,11 @@ const MobileSectiontwo = () => {
         Increase Your Brand Visibility with Presence on Every Phone App Screen
       </h5>
       <p className="text-center text-wrap text-gray-600 sm:text-gray-800 text-sm sm:text-base py-6 sm:pt-12 sm:px-14">
-        At logo zeal, we develop a personalized platform for your business that
-        curators maximum interactions between your targeted audience and
-        business. We create mobile applications that reflect positively on your
-        business identity in the market.
+        At <span className="font-bold text-orange-500"> Red Stone</span>, we
+        develop a personalized platform for your business that curators maximum
+        interactions between your targeted audience and business. We create
+        mobile applications that reflect positively on your business identity in
+        the market.
       </p>
       <p className="text-center text-wrap text-gray-600 sm:text-gray-800 text-sm sm:text-base pb-6 sm:px-14">
         Through mobile applications, we create a path for users to follow and

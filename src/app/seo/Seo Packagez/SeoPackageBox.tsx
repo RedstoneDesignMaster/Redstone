@@ -1,6 +1,8 @@
+"use client";
 import React from "react";
 import Link from "next/link";
-
+import { useState } from "react";
+import PopupModal from "@/app/order-form/PopupModal";
 interface Package {
   name: string;
   price: string;
@@ -12,6 +14,7 @@ interface PackageCardProps {
 }
 
 const SeoPackageBox: React.FC<PackageCardProps> = ({ pack }) => {
+  const [isModalOpen, setModalOpen] = useState(false);
   return (
     <div className="package-card border-2 w-full sm:w-auto rounded-md shadow-md">
       <h5 className="text-4xl md:text-xl md:font-bold font-extrabold text-center  text-wrap pt-9 text-violet-800 ">
@@ -31,17 +34,18 @@ const SeoPackageBox: React.FC<PackageCardProps> = ({ pack }) => {
         </ul>
       </div>
       <div className="flex justify-center items-start text-center py-4 gap-3">
-        <Link
-          href=""
-          className="bg-violet-600 py-2 px-4 hover:bg-violet-500 rounded-md font-medium"
+        <button
+          onClick={() => setModalOpen(true)}
+          className="px-4 py-2 bg-violet-600 text-white rounded-lg hover:bg-violet-400 font-medium"
         >
-          Oder Now
-        </Link>
+          Order Now
+        </button>
+        <PopupModal isOpen={isModalOpen} onClose={() => setModalOpen(false)} />
         <Link
-          href=""
+          href="tel:+1 909 307 4060"
           className="bg-orange-400 hover:bg-orange-500 py-2 px-4 rounded-md font-medium"
         >
-          Live Chat
+          Live Talk
         </Link>
       </div>
     </div>

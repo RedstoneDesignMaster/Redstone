@@ -40,12 +40,9 @@ const page = () => {
         </p>
         <section className="py-4">
           <div className="flex text-sm font-bold">
-            <Link
-              href={""}
-              className="bg-violet-600 hover:bg-violet-500 py-2 md:px-4 px-6 text-xs md:text-base rounded-l-md text-white"
-            >
+            <span className="bg-violet-600 hover:bg-violet-500 py-2 md:px-4 px-6 text-xs md:text-base rounded-l-md text-white">
               Custom Website design From $499{" "}
-            </Link>
+            </span>
             <Link
               href={"tel:+1 909 307 4060"}
               className="bg-orange-500 hover:bg-orange-600 py-2 md:px-6 px-4 text-xs md:text-base rounded-r-md"

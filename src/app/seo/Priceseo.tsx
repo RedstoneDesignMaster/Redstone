@@ -1,8 +1,12 @@
+"use client";
 import React from "react";
+import { useState } from "react";
+import PopupModal from "../order-form/PopupModal";
 import Link from "next/link";
 import { basicSeo } from "../components/constants";
 
 const Priceseo = ({ title, price }: { title: string; price: number }) => {
+  const [isModalOpen, setModalOpen] = useState(false);
   return (
     <section className="border-2 w-full md:w-1/4 text-center overflow-hidden shadow-md rounded-md">
       <h5 className="text-2xl font-extrabold leading-loose tracking-wide text-center  text-wrap pt-9">
@@ -22,11 +26,24 @@ const Priceseo = ({ title, price }: { title: string; price: number }) => {
         </ul>
       </div>
       <div className="flex justify-center items-start text-center py-4 gap-3">
-        <Link href="" className="bg-violet-600 py-2 px-4 hover:bg-violet-500">
-          Oder Now
-        </Link>
-        <Link href="" className="bg-yellow-500 hover:bg-yellow-400 py-2 px-4">
-          Live Chat
+        <div>
+          <button
+            onClick={() => setModalOpen(true)}
+            className="px-4 py-2 bg-violet-600 text-white rounded-lg hover:bg-violet-400 font-medium"
+          >
+            Order Now
+          </button>
+          <PopupModal
+            isOpen={isModalOpen}
+            onClose={() => setModalOpen(false)}
+          />
+        </div>
+
+        <Link
+          href="tel:+1 909 307 4060"
+          className="bg-yellow-500 hover:bg-yellow-400 py-2 px-4"
+        >
+          Live Talk
         </Link>
       </div>
     </section>
