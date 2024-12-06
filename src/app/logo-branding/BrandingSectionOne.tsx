@@ -29,7 +29,7 @@ const BrandingSectionOne = () => {
                 onClick={() => setModalOpen(true)}
                 className="px-4 py-[6px] bg-violet-600 text-white rounded-l-lg hover:bg-violet-400 "
               >
-                Let's get started $59.00
+                Lets get started $59.00
               </button>
               <PopupModal
                 isOpen={isModalOpen}
