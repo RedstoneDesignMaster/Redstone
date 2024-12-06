@@ -3,7 +3,7 @@ import React from "react";
 import { useState } from "react";
 import PopupModal from "./PopupModal";
 
-const page: React.FC = () => {
+const Page: React.FC = () => {
   const [isModalOpen, setModalOpen] = useState(false);
 
   return (
@@ -19,4 +19,4 @@ const page: React.FC = () => {
   );
 };
 
-export default page;
+export default Page;
