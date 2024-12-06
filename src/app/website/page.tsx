@@ -25,7 +25,7 @@ const page = () => {
           backgroundImage: "url('/cms-new-banner.webp')",
         }}
       >
-        <h5 className="font-normal text-3xl text-yellow-300  md:text-4xl">
+        <h5 className="font-normal text-3xl text-orange-500  md:text-4xl">
           Professional{" "}
         </h5>
         <h6 className="text-3xl font-light text-wrap tracking-tight leading-[48px] ">
@@ -42,13 +42,13 @@ const page = () => {
           <div className="flex text-sm font-bold">
             <Link
               href={""}
-              className="bg-violet-600 hover:bg-violet-500 py-2 md:px-4 px-6 text-xs md:text-base"
+              className="bg-violet-600 hover:bg-violet-500 py-2 md:px-4 px-6 text-xs md:text-base rounded-l-md text-white"
             >
               Custom Website design From $499{" "}
             </Link>
             <Link
-              href={""}
-              className="bg-yellow-500 hover:bg-violet-500 py-2 md:px-6 px-4 text-xs md:text-base"
+              href={"tel:+1 909 307 4060"}
+              className="bg-orange-500 hover:bg-orange-600 py-2 md:px-6 px-4 text-xs md:text-base rounded-r-md"
             >
               Live Chat
             </Link>

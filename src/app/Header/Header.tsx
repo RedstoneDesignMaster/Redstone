@@ -42,7 +42,7 @@ const Header = () => {
           <div className="hidden lg:block lg:gap-x-2">
             <Link
               href={"/contact-us"}
-              className=" bg-violet-600 hover:bg-yellow-400 transition duration-500 ease-in-out text-white py-3 px-4 rounded-md font-bold text-sm shadow-md"
+              className=" bg-orange-400 hover:bg-orange-500 transition duration-500 ease-in-out text-white py-3 px-4 rounded-md font-bold text-sm shadow-md"
             >
               Seeking a quote
             </Link>
@@ -52,7 +52,7 @@ const Header = () => {
           <FaBars />
         </div>
       </div>
-      <div className="hidden md:flex md:items-center md:justify-center md:gap-10 md:bg-violet-500 md:text-white md:font-semibold py-2 text-[14px] font-[500px] tracking-normal md:gap-x-24 ">
+      <div className="hidden md:flex md:items-center md:justify-center md:gap-10 md:bg-gradient-to-r from-orange-600 to-violet-600 md:text-white md:font-semibold py-2 text-[14px] font-[500px] tracking-normal md:gap-x-24 ">
         <Link href={"/logo-branding"} className="hover:underline">
           LOGO & BRANDING
         </Link>

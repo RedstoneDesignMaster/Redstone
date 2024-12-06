@@ -21,7 +21,7 @@ const Hero = () => {
             We Are A Full Fledged Digital Agency <br />{" "}
           </h1>
 
-          <h2 className="animate__animated  animate__bounceInLeft duration-1000 md:text-3xl font-bold md:text-wrap md:tracking-tight md:leading-[48px] text-yellow-300 z-0 py-4 md:py-2 text-2xl ">
+          <h2 className="animate__animated  animate__bounceInLeft duration-1000 md:text-3xl font-bold md:text-wrap md:tracking-tight md:leading-[48px] text-orange-400 z-0 py-4 md:py-2 text-2xl ">
             Creating Awesome Website
           </h2>
           <p className="md:py-4 text-wrap  animate_animated animate__slideOutDown md:line-clamp-3">
@@ -33,13 +33,13 @@ const Hero = () => {
             <span>
               <Link
                 href={"/contact-us"}
-                className="bg-violet-600 hover:bg-violet-500 py-2 px-4 text-base font-bold "
+                className="bg-violet-600 hover:bg-violet-500 py-2 px-4 text-base font-bold text-black rounded-l-md "
               >
                 Lets Get Started {<ChevronRightIcon />}
               </Link>
               <Link
                 href={"tel:+1 909 307 4060"}
-                className="bg-yellow-500 hover:bg-violet-500 py-2 px-4 text-base font-bold"
+                className="bg-orange-400 hover:bg-violet-500 py-2 px-4 text-base font-bold text-black rounded-r-md"
               >
                 Book Appointment
               </Link>

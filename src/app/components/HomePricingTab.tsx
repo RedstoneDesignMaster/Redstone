@@ -19,7 +19,7 @@ const HomePricingTab = () => {
     <div>
       <div className=" md:py-10 md:px-4 px-4 ">
         <ul className="flex flex-col md:flex-row justify-around items-center text-center font-semibold cursor-pointer">
-          <li className="w-full md:w-auto  px-6 py-1 hover:bg-violet-500 active:bg-violet-500 active:bg-opacity-50 text-sm border border-gray-200 md:border-2   md:hover:text-gray-800 md:hover:border-b-2 md:hover:border-gray-300 md:last:border-b-2 md:last:border-gray-300 md:last:border-r-0">
+          <li className="w-full md:w-auto  px-6 py-1 hover:bg-orange-400 active:bg-orange-400 active:bg-opacity-50 text-sm border border-gray-200 md:border-2   md:hover:text-gray-800 md:hover:border-b-2 md:hover:border-gray-300 md:last:border-b-2 md:last:border-gray-300 md:last:border-r-0">
             <button
               onClick={() => {
                 handleChange("logo");
@@ -28,7 +28,7 @@ const HomePricingTab = () => {
               LOGO & BRANDING
             </button>
           </li>
-          <li className="w-full md:w-auto  px-6 py-1 hover:bg-violet-500 active:bg-violet-500 active:bg-opacity-50 text-sm border border-gray-200 md:border-2   md:hover:text-gray-800 md:hover:border-b-2 md:hover:border-gray-300 md:last:border-b-2 md:last:border-gray-300 md:last:border-r-0">
+          <li className="w-full md:w-auto  px-6 py-1 hover:bg-orange-400 active:bg-violet-500 active:bg-opacity-50 text-sm border border-gray-200 md:border-2   md:hover:text-gray-800 md:hover:border-b-2 md:hover:border-gray-300 md:last:border-b-2 md:last:border-gray-300 md:last:border-r-0">
             <button
               type="button"
               onClick={() => {
@@ -39,7 +39,7 @@ const HomePricingTab = () => {
               WEBSITE
             </button>
           </li>
-          <li className="w-full md:w-auto px-6 py-1 hover:bg-violet-500 active:bg-violet-500 active:bg-opacity-50 text-sm border border-gray-200 md:border-2   md:hover:text-gray-800 md:hover:border-b-2 md:hover:border-gray-300 md:last:border-b-2 md:last:border-gray-300 md:last:border-r-0">
+          <li className="w-full md:w-auto px-6 py-1 hover:bg-orange-400 active:bg-violet-500 active:bg-opacity-50 text-sm border border-gray-200 md:border-2   md:hover:text-gray-800 md:hover:border-b-2 md:hover:border-gray-300 md:last:border-b-2 md:last:border-gray-300 md:last:border-r-0">
             <button
               type="button"
               onClick={() => {
@@ -51,7 +51,7 @@ const HomePricingTab = () => {
             </button>
           </li>
 
-          <li className="w-full md:w-auto px-6 py-1 hover:bg-violet-500 active:bg-violet-500 active:bg-opacity-50 text-sm border border-gray-200 md:border-2   md:hover:text-gray-800 md:hover:border-b-2 md:hover:border-gray-300 md:last:border-b-2 md:last:border-gray-300 md:last:border-r-0">
+          <li className="w-full md:w-auto px-6 py-1 hover:bg-orange-400 active:bg-violet-500 active:bg-opacity-50 text-sm border border-gray-200 md:border-2   md:hover:text-gray-800 md:hover:border-b-2 md:hover:border-gray-300 md:last:border-b-2 md:last:border-gray-300 md:last:border-r-0">
             <button
               type="button"
               onClick={() => {
@@ -62,7 +62,7 @@ const HomePricingTab = () => {
               WEB PORTAL
             </button>{" "}
           </li>
-          <li className="w-full md:w-auto px-6 py-1 hover:bg-violet-500 active:bg-violet-500 active:bg-opacity-50 text-sm border border-gray-200 md:border-2   md:hover:text-gray-800 md:hover:border-b-2 md:hover:border-gray-300 md:last:border-b-2 md:last:border-gray-300 md:last:border-r-0">
+          <li className="w-full md:w-auto px-6 py-1 hover:bg-orange-400 active:bg-violet-500 active:bg-opacity-50 text-sm border border-gray-200 md:border-2   md:hover:text-gray-800 md:hover:border-b-2 md:hover:border-gray-300 md:last:border-b-2 md:last:border-gray-300 md:last:border-r-0">
             <button
               type="button"
               onClick={() => {
@@ -74,7 +74,7 @@ const HomePricingTab = () => {
             </button>{" "}
           </li>
 
-          <li className="w-full md:w-auto px-6 py-1 hover:bg-violet-500 active:bg-violet-500 active:bg-opacity-50 text-sm border border-gray-200 md:border-2   md:hover:text-gray-800 md:hover:border-b-2 md:hover:border-gray-300 md:last:border-b-2 md:last:border-gray-300 md:last:border-r-0">
+          <li className="w-full md:w-auto px-6 py-1 hover:bg-orange-400 active:bg-violet-500 active:bg-opacity-50 text-sm border border-gray-200 md:border-2   md:hover:text-gray-800 md:hover:border-b-2 md:hover:border-gray-300 md:last:border-b-2 md:last:border-gray-300 md:last:border-r-0">
             <button
               type="button"
               onClick={() => {
@@ -85,7 +85,7 @@ const HomePricingTab = () => {
               SMM
             </button>
           </li>
-          <li className="w-full md:w-auto px-6 py-1 hover:bg-violet-500 active:bg-violet-500 active:bg-opacity-50 text-sm border border-gray-200 md:border-2   md:hover:text-gray-800 md:hover:border-b-2 md:hover:border-gray-300 md:last:border-b-2 md:last:border-gray-300 md:last:border-r-2">
+          <li className="w-full md:w-auto px-6 py-1 hover:bg-orange-400 active:bg-violet-500 active:bg-opacity-50 text-sm border border-gray-200 md:border-2   md:hover:text-gray-800 md:hover:border-b-2 md:hover:border-gray-300 md:last:border-b-2 md:last:border-gray-300 md:last:border-r-2">
             <button
               type="button"
               onClick={() => {

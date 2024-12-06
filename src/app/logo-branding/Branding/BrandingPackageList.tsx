@@ -39,7 +39,7 @@ const BrandingPackageList: React.FC<PackageCardProps> = ({ pack }) => {
         </Link>
         <Link
           href=""
-          className="bg-yellow-500 hover:bg-yellow-400 py-2 px-4 rounded-sm font-medium"
+          className="bg-orange-400 hover:bg-orange-500 py-2 px-4 rounded-sm font-medium"
         >
           Live Chat
         </Link>

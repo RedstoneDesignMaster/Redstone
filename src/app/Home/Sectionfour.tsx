@@ -10,13 +10,13 @@ const Sectionfour = () => {
             Let Us Give Your Brand An Identity <br />
             That Speaks It All For You!
           </h5>
-          <p className="text-yellow-300 md:text-xl text-base md:py-8 py-4 text-wrap px-4">
+          <p className="text-orange-200 md:text-xl text-base md:py-8 py-4 text-wrap px-4">
             We transform creative ideas into stunning realities. Share your
             vision with us, we will turn it into reality for you.
           </p>
           <div className="flex items-center justify-center gap-2 md:pb-8 pb-2 ">
             <Link
-              className="px-4 py-2 bg-yellow-500 hover:bg-yellow-400 text-sm font-bold rounded-sm"
+              className="px-4 py-2 bg-orange-400 hover:bg-orange-500 text-sm font-bold rounded-md"
               href={"tel:+1 909 307 4060"}
             >
               Request a Custom Quote

@@ -33,13 +33,13 @@ const LogoBrandingPackage: React.FC<PackageCardProps> = ({ pack }) => {
       <div className="flex justify-center items-start text-center py-4 gap-3">
         <Link
           href=""
-          className="bg-violet-600 py-2 px-4 hover:bg-violet-500 rounded-sm font-medium"
+          className="bg-violet-600 py-2 px-4 hover:bg-violet-500 rounded-md font-medium"
         >
           Oder Now
         </Link>
         <Link
           href=""
-          className="bg-yellow-500 hover:bg-yellow-400 py-2 px-4 rounded-sm font-medium"
+          className="hover:bg-orange-500 bg-orange-400 py-2 px-4 rounded-md font-medium"
         >
           Live Chat
         </Link>

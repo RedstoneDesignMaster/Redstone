@@ -29,7 +29,7 @@ const BrandingSectionOne = () => {
               </Link>
               <Link
                 href={""}
-                className="bg-yellow-500 hover:bg-violet-500 py-2 px-4 text-base font-bold"
+                className="bg-orange-400 hover:bg-violet-500 py-2 px-4 text-base font-bold"
               >
                 Live Chat
               </Link>

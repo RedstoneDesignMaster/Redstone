@@ -17,7 +17,7 @@ const Websitesectiontwo = () => {
         <p className="text-wrap text-gray-400 leading-8 md:leading-10 pb-5  pt-6 md:pl-8 text-sm md:text-base pr-10 ">
           CMS (content management system) is the most convenient solution which
           enables authorized users to manage publications and content easily.
-          Logo Zeal provides custom CMS websites to anyone who wishes complete
+          Red Stone provides custom CMS websites to anyone who wishes complete
           control. Custom CMS is a tool preferred by leading enterprises. We
           create CMS websites to provide your business with advanced control and
           website administration. Our services ensure website performance and
@@ -37,8 +37,8 @@ const Websitesectiontwo = () => {
           </ul>
         </div>
         <Link
-          href={""}
-          className="md:px-8 px-4 text-white font-bold text-center rounded-[2px] text-sm sm:text-xl py-2 md:py-6 bg-violet-600 mt-6 md:ml-8 "
+          href={"tel:+1 909 307 4060"}
+          className="md:px-6 px-4 text-black font-bold text-center  text-sm sm:text-lg py-2 md:py-4 bg-orange-400 mt-6 md:ml-8 rounded-full"
         >
           Request a Custom Quote
         </Link>
